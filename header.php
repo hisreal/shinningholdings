@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<!-- Meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Finance and Investment HTML Template by Indonez">
+	<meta name="keywords" content="blockit, bootstrap, indonez, handlebars, scss, javascript">
+	<meta name="author" content="Indonez">
+	<meta name="theme-color" content="#125a52">
+	<!-- critical preload -->
+	<link rel="preload" href="js/vendors/bootstrap.bundle.min.js" as="script">
+	<link rel="preload" href="css/style.css" as="style">
+	<!-- icon preload -->
+	<link rel="preload" href="fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
+	<link rel="preload" href="fonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
+	<!-- font preload -->
+	<link rel="preload" href="fonts/dm-sans-v11-latin-700.woff2" as="font" type="font/woff2" crossorigin>
+	<link rel="preload" href="fonts/dm-sans-v11-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
+	<!-- stylesheet -->
+	<link rel="stylesheet" href="css/style.css">
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+	<!-- Touch icon -->
+	<link rel="apple-touch-icon-precomposed" href="img/apple-touch-icon.png">
+	<title>Homepage - Avo HTML Template</title>
+</head>
