@@ -24,5 +24,5 @@
 	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 	<!-- Touch icon -->
 	<link rel="apple-touch-icon-precomposed" href="img/apple-touch-icon.png">
-	<title>Homepage - Avo HTML Template</title>
+	<title>Shinning Holding || Manage & grow investment assets securely</title>
 </head>
