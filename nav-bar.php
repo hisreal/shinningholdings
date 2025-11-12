@@ -7,7 +7,7 @@
 			<div class="collapse navbar-collapse d-flex justify-content-between d-none d-xl-block" id="navbarNav">
 				<ul class="navbar-nav">
 					<li class="nav-item">
-						<a class="nav-link" href="index.php">Home</a>
+						<a class="nav-link" href="index.php">Hisreal</a>
 					</li>
 					<li class="nav-item dropdown">
 						<a class="nav-link dropdown-toggle" href="index-2.html" id="dropdownHome" data-bs-toggle="dropdown" aria-expanded="false">About Us</a>
