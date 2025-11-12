@@ -1,46 +1,24 @@
-<!-- slideshow content begin -->
-<section>
-	<div id="slideshow" class="carousel slide">
-		<div class="carousel-inner">
-
-			<!-- Slide 1 -->
-			<div class="carousel-item active">
-				<div class="carousel-caption d-flex align-items-center">
-					<div class="container">
-						<div class="row g-0 align-items-md-center">
-							<div class="col-md-12 col-lg-12 order-first text-center">
-								<h1 class="fw-bold display-4">Build a Better Future with Avo. Investment</h1>
-								<p class="lead mb-3 d-none d-lg-block">
-									Start growing your passive income today. Invest from as low as 100 EUR in various instruments.
-								</p>
-								<a href="#" class="btn btn-primary rounded-pill d-none d-sm-inline">
-									Get started <i class="fas fa-arrow-right fa-sm ms-1"></i>
-								</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-
-			<!-- Slide 2 -->
-			<div class="carousel-item">
-				<div class="carousel-caption d-flex align-items-center">
-					<div class="container">
-						<div class="row g-0 align-items-md-center">
-							<div class="col-md-12 col-lg-12 order-first text-center">
-								<h1 class="fw-bold display-4">Manage & grow investment assets securely</h1>
-								<p class="lead mb-3 d-none d-lg-block">
-									With our trusted regulations and experience, you can easily & safely build your investment assets.
-								</p>
-								<a href="#" class="btn btn-primary rounded-pill d-none d-sm-inline">
-									Get started <i class="fas fa-arrow-right fa-sm ms-1"></i>
-								</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-
-		</div>
-	</div>
+<!-- Hero Section Begin -->
+<section 
+  class="hero-section d-flex align-items-center text-center text-white" 
+  style="
+    background-image: url('img/in-slide-bg.webp');
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+  ">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-10 col-lg-8">
+        <h1 style="font-size: 20px" class="fw-bold display-4 mb-3">
+          Manage & grow investment assets securely
+        </h1>
+        <p style="font-size: 14px" class="lead mb-4 d-lg-block">
+       Energy |Power |Banking|Insurance & Financial Services|Technology|Real Estate & Hospitality|Healthcare
+        </p>
+        
+      </div>
+    </div>
+  </div>
 </section>
+<!-- Hero Section End -->
