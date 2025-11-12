@@ -17,7 +17,7 @@
  <!-- section content begin -->
 		<section style="margin-top:-50px;" class="py-5 card-style-10 in-avo-2">
 			<div class="container">
-				<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-2 g-lg-3">
+				<div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-2 g-lg-4">
 					<div class="col">
 						<div class="card card-green">
 							<div class="card-body p-3">

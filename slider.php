@@ -14,7 +14,7 @@
           Manage & grow investment assets securely
         </h1>
         <p style="font-size: 14px" class="lead mb-4 d-lg-block">
-       Energy |Power |Banking|Insurance & Financial Services|Technology|Real Estate & Hospitality|Healthcare
+       Energy |Power |Technology|Real Estate & Hospitality
         </p>
         
       </div>
