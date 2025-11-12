@@ -26,7 +26,7 @@
 								</div>
 								<h5 class="fw-bold mt-4">
 									<a href="#" class="link-light text-decoration-none d-flex justify-content-between align-items-center">
-										Hotel Management
+										Power
 										<i class="fas fa-arrow-right fa-xs"></i>
 									</a>
 								</h5>
@@ -41,7 +41,7 @@
 								</div>
 								<h5 class="fw-bold mt-4">
 									<a href="#" class="link-light text-decoration-none d-flex justify-content-between align-items-center">
-										Financial Analysis
+										Technology
 										<i class="fas fa-arrow-right fa-xs"></i>
 									</a>
 								</h5>
@@ -56,7 +56,7 @@
 								</div>
 								<h5 class="fw-bold mt-4">
 									<a href="#" class="link-light text-decoration-none d-flex justify-content-between align-items-center">
-										Wealth management
+										Energy
 										<i class="fas fa-arrow-right fa-xs"></i>
 									</a>
 								</h5>
@@ -71,43 +71,15 @@
 								</div>
 								<h5 class="fw-bold mt-4">
 									<a href="#" class="link-light text-decoration-none d-flex justify-content-between align-items-center">
-										Investment advisory
+										Real Estate and Hospitality
 										<i class="fas fa-arrow-right fa-xs"></i>
 									</a>
 								</h5>
 							</div>
 						</div>
 					</div>
-					<div class="col">
-						<div class="card card-green">
-							<div class="card-body p-3">
-								<div class="icon-wrap rounded-circle flex-shrink-0">
-									<i class="fas fa-funnel-dollar fa-lg"></i>
-								</div>
-								<h5 class="fw-bold mt-4">
-									<a href="#" class="link-light text-decoration-none d-flex justify-content-between align-items-center">
-										Smart portfolio
-										<i class="fas fa-arrow-right fa-xs"></i>
-									</a>
-								</h5>
-							</div>
-						</div>
-					</div>
-					<div class="col">
-						<div class="card card-green">
-							<div class="card-body p-3">
-								<div class="icon-wrap rounded-circle flex-shrink-0">
-									<i class="fas fa-handshake fa-lg"></i>
-								</div>
-								<h5 class="fw-bold mt-4">
-									<a href="#" class="link-light text-decoration-none d-flex justify-content-between align-items-center">
-										Mutual fund advisor
-										<i class="fas fa-arrow-right fa-xs"></i>
-									</a>
-								</h5>
-							</div>
-						</div>
-					</div>
+					
+					
 				</div>
 		
 		</section>
