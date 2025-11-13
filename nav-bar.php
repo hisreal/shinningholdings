@@ -10,12 +10,12 @@
 						<a class="nav-link" href="index.php">Home</a>
 					</li>
 					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" href="index-2.html" id="dropdownHome" data-bs-toggle="dropdown" aria-expanded="false">About Us</a>
+						<a class="nav-link dropdown-toggle" href="about.php" id="dropdownHome" data-bs-toggle="dropdown" aria-expanded="false">About Us</a>
 						<ul class="dropdown-menu">
-							<!--<li>
-								<a class="dropdown-item" href="#">Overview 2</a>
-							</li>
 							<li>
+								<a class="dropdown-item" href="contact.php">Contact Us</a>
+							</li>
+							<!--<li>
 								<a class="dropdown-item" href="#">Our Leadership</a>
 							</li>
 							<li>
@@ -69,12 +69,11 @@
 							
 						</ul>
 					</li>
-					
-					
+
 				</ul>
 				<div class="optional-link d-flex align-items-center ms-4 d-none d-xl-block">
 					<a href="#" class="btn btn-link link-secondary text-decoration-none">Sign in</a>
-					<a href="#" class="btn btn-outline-primary rounded-pill">Get started<i class="fas fa-arrow-right fa-sm ms-1"></i></a>
+					<!--<a href="#" class="btn btn-outline-primary rounded-pill">Get started<i class="fas fa-arrow-right fa-sm ms-1"></i></a>-->
 				</div>
 			</div>
 		</div>

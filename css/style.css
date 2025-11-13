@@ -2075,7 +2075,7 @@ progress {
   appearance: none;
   background-color: #ffffff;
   background-clip: padding-box;
-  border: var(--bs-border-width) solid #E5E5E5;
+  border: 1px solid #262626;
   border-radius: 8px;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
@@ -3312,7 +3312,7 @@ textarea.form-control-lg {
   --bs-dropdown-link-color: rgba(0, 0, 0, 0.8);
   --bs-dropdown-link-hover-color: #125a52;
   --bs-dropdown-link-hover-bg: none;
-  --bs-dropdown-link-active-color: #ea86a8;
+  --bs-dropdown-link-active-color: #125a52;
   --bs-dropdown-link-active-bg: none;
   --bs-dropdown-link-disabled-color: var(--bs-tertiary-color);
   --bs-dropdown-item-padding-x: 10px;
@@ -3578,7 +3578,7 @@ textarea.form-control-lg {
   --bs-dropdown-link-hover-color: #fff;
   --bs-dropdown-divider-bg: rgba(0, 0, 0, 0.15);
   --bs-dropdown-link-hover-bg: rgba(255, 255, 255, 0.15);
-  --bs-dropdown-link-active-color: #ea86a8;
+  --bs-dropdown-link-active-color: #125a52;
   --bs-dropdown-link-active-bg: none;
   --bs-dropdown-link-disabled-color: #adb5bd;
   --bs-dropdown-header-color: #adb5bd;
@@ -4580,7 +4580,7 @@ textarea.form-control-lg {
   --bs-breadcrumb-padding-y: 6px;
   --bs-breadcrumb-margin-bottom: 1rem;
   --bs-breadcrumb-font-size: 0.813rem;
-  --bs-breadcrumb-bg: rgba(219, 47, 105, 0.8);
+  --bs-breadcrumb-bg: #125a52;
   --bs-breadcrumb-border-radius: 25px;
   --bs-breadcrumb-divider-color: #fff;
   --bs-breadcrumb-item-padding-x: 0.75rem;
@@ -25328,11 +25328,12 @@ body.loaded .page-loader {
 }
 
 .icon-wrap.bg-primary {
-  color: #125a25;
-  background-color: #b72053 !important;
+  color: #ffffff;
+  background-color: #125a25;
 }
 .icon-wrap.bg-primary i {
-  color:#125a25;
+  color:#ffffff;
+  background-color: #125a25;
 ;
 }
 
@@ -25754,7 +25755,7 @@ background: linear-gradient(148deg, rgb(18, 90, 82) 0%, rgba(18, 90, 82, 0.5) 86
 
 }
 .in-avo-2 .active-col .icon-wrap.bg-primary {
-  background-color: rgba(255, 255, 255, 0.3) !important;
+  background-color: #125a52!important;
 }
 .in-avo-2 .active-col .icon-wrap.bg-primary i {
   color: #fff;

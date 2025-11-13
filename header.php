@@ -21,7 +21,7 @@
 	<!-- stylesheet -->
 	<link rel="stylesheet" href="css/style.css">
 	<!-- Favicon -->
-	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="img/user/shinninglogo.jpg" type="image/x-icon">
 	<!-- Touch icon -->
 	<link rel="apple-touch-icon-precomposed" href="img/apple-touch-icon.png">
 	<title>Shinning Holding || Manage & grow investment assets securely</title>
