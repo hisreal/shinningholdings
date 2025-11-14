@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Banner</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .hero-banner {
+            width: 100%;
+            padding: 120px 20px;
+            background: linear-gradient(148deg, #125a52 0%, rgba(18, 90, 82, 0.7) 86%);
+            color: #ffffff;
+            display: flex;
+            align-items: center;
+        }
+
+        .hero-content {
+            text-align: left;
+            max-width: 900px;
+        }
+
+        /* Responsive Heading */
+        .hero-banner h1 {
+            font-size: clamp(2rem, 6vw, 4.8rem);
+            font-weight: 800;
+            margin-bottom: 20px;
+            line-height: 1.2;
+        }
+
+        .hero-banner p {
+            font-size: clamp(1rem, 2vw, 1.4rem);
+            opacity: 0.9;
+            margin-top: 0;
+        }
+
+        /* DEFAULT (Tablet & Desktop): full width */
+        .hero-content {
+            width: 100%;
+        }
+
+        /* 📱 MOBILE: limit content to 50% width */
+        @media (max-width: 768px) {
+            .hero-content {
+                width: 70%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <section class="hero-banner">
+        <div class="hero-content">
+            <h1>Welcome to Our Website</h1>
+            <p>Your success starts here.</p>
+        </div>
+    </section>
+
+</body>
+</html>

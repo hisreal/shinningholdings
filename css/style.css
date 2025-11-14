@@ -25453,6 +25453,15 @@ body.loaded .page-loader {
 .sticky-nav .navbar-brand {
   margin-top: -3px;
 }
+.navbar-brander img{
+         display: block;
+        width: 200px;      /* Set your desired logo width */
+        height: 60px;      /* Set your desired logo height */
+        background-image: url('../img/user/shinninglogo.png');
+        background-size: contain;       /* Scale logo proportionally */
+        background-repeat: no-repeat;   /* Prevent repetition */
+        background-position: left center; /* Position logo inside container */
+}
 .sticky-nav .navbar-collapse {
   top: 0;
 }
@@ -25699,22 +25708,85 @@ body.loaded .page-loader {
   color: #fff;
 }
 .card-style-10 .card-green {
-  background: 
-    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(../img/banner/card1.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../img/services/power-image.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .card-style-10 .card-blue {
-  background-color: #4284DD;
+  background: 
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../img/services/technology-image.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
+
+
+
+    .hero-banner {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/banner/city-view.jpg');
+      background-size: cover;
+      width: 100%;
+      background-position: center;
+      color: #ffffff;
+      display: flex;
+      align-items: center;
+        }
+
+        .hero-content {
+            text-align: left;
+            max-width: 900px;
+        }
+
+        /* Responsive Heading */
+        .hero-banner h1 {
+            font-size: clamp(1rem, 6vw, 4.8rem);
+            font-weight: 500;
+            margin-top: 190px;
+            margin-bottom: 20px;
+            line-height: 1.2;
+            color: #ffffff;
+        }
+
+        .hero-banner p {
+            font-size: clamp(2rem, 6vw, 4.4rem);
+           
+            color: #ffffff;
+            margin-top: 0;
+        }
+
+        /* DEFAULT (Tablet & Desktop): full width */
+        .hero-content {
+            width: 100%;
+        }
+
+        /* 📱 MOBILE: limit content to 50% width */
+        @media (max-width: 768px) {
+            .hero-content {
+                width: 70%;
+               
+            }
+        }
+
+
 .card-style-10 .card-purple {
-  background-color: #9A5BB4;
+  background: 
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../img/services/energy-image.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .card-style-10 .card-navy {
-  background-color: #35495D;
+  background: 
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../img/services/estate-image.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .card-style-10 .card-grey {
   background-color: #95A5A6;

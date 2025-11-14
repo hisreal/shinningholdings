@@ -1,8 +1,8 @@
 <!-- header begin -->
-	<header class="navbar navbar-expand-lg navbar-light">
+	<header class="navbar navbar-expand-lg navbar-light flex-nowrap">
 		<div class="container">
 			<a class="navbar-brand" href="index.php">
-				<img src="img/user/shinninglogo.jpg" alt="logo" width="100%" height="43" class="d-inline-block">
+				<img src="img/user/shinninglogo.png" alt="logo"  style="max-width: 180px;">
 			</a>
 			<div class="collapse navbar-collapse d-flex justify-content-between d-none d-xl-block" id="navbarNav">
 				<ul class="navbar-nav">
@@ -13,8 +13,12 @@
 						<a class="nav-link dropdown-toggle" href="about.php" id="dropdownHome" data-bs-toggle="dropdown" aria-expanded="false">About Us</a>
 						<ul class="dropdown-menu">
 							<li>
+								<a class="dropdown-item" href="about.php">Overview</a>
+							</li>
+							<li>
 								<a class="dropdown-item" href="contact.php">Contact Us</a>
 							</li>
+
 							<!--<li>
 								<a class="dropdown-item" href="#">Our Leadership</a>
 							</li>

@@ -1,20 +1,13 @@
 <!-- Hero Section Begin -->
-<section 
-  class="hero-section d-flex align-items-center text-center text-white" 
-  style="
-    background-image: url('img/in-slide-bg.webp');
-    background-size: cover;
-    background-position: center;
-    height: 50vh;
-  ">
+<section class=" hero-banner">
   <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-md-10 col-lg-8">
-        <h1 style="font-size: 20px" class="fw-bold display-4 mb-3">
-          Manage & grow investment assets securely
+    <div class="row ">
+      <div class="hero-content col-md-10 col-lg-8">
+        <h1 class="fw-bold display-4 mb-3">
+          Investing in Africa's Future, Today
         </h1>
         <p style="font-size: 14px" class="lead mb-4 d-lg-block">
-       Energy |Power |Technology|Real Estate & Hospitality
+       Energy &nbsp; | &nbsp;Power &nbsp; | &nbsp; Technology &nbsp; | &nbsp; Real Estate & Hospitality
         </p>
         
       </div>

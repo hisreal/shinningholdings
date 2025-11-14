@@ -1,56 +1,81 @@
 <?php require_once("header.php"); ?>
 <?php require_once("page_loader.php"); ?>
 <?php require_once("nav-bar.php");?>
-<?php require_once("slider.php"); ?>
-<section class="py-5 in-avo-2">  
-	<div class="container">
-		<div class="row justify-content-center">
-			<div class="col-md-10 col-lg-8">
-				<h5 style="text-align: center">Learn More <span class="text-highlight">About</span> Us</h5>
-				<p style="text-align: center; font-size: 16px" class="lead text-muted">At Shining Holdings, we are committed to delivering premium rental and hospitality services through
-                             strategic partnerships and industry expertise. We collaborate with top-tier Rental Agents who prioritize 
-                             client satisfaction, operational efficiency, and excellence in service delivery</p>
-			</div>
-		</div>
+<section class=" hero-banner">
+  <div class="container">
+    <div class="row ">
+      <div class="hero-content col-md-10 col-lg-8">
+        <h1 class="fw-bold display-4 mb-3">
+          About Us
+        </h1>
+        
+      </div>
     </div>
+  </div>
 </section>
- 
-
 <!-- section content begin -->
-		<section style="margin-top:-90px;" class="py-5">
+		<section style="margin-top:-10px;" class="py-5">
 			<div class="container">
 				<div class="row d-md-flex justify-content-md-center gx-lg-5">
-					<div class="col-12 col-md-10 col-lg-6 pe-lg-5">
-						<p style="text-align: center; font-size: 16px" class="lead text-muted">
-                            Uche Godswill Onyemachi is a dynamic Nigerian entrepreneur and investor
-                             with a diverse business portfolio spanning fashion, cryptocurrency, transportation, and energy.</p>
-                        <p style="text-align: center; font-size: 16px" class="lead text-muted"> He learned fashion and design in Nigeria, where he laid the foundation for his entrepreneurial
-                            journey.
-                            In 2017-2018, Uche ventured into fashion design, establishing himself
-                                as a creative talent. He entered the cryptocurrency space in 2018,
-                                 becoming an active investor and advocate for blockchain technology.</>
-
-	<p style="text-align: center; font-size: 16px" class="lead text-muted">His entrepreneurial journey in transportation began in Nigeria in 2020, starting with a fleet
- of a few buses. Driven by his vision and determination, Uche upgraded his transportation business
-  to a luxury level, culminating in the launch of Plugluxx in South Africa in 2025 — a 
-  state-of-the-art luxury bus service designed to redefine travel experiences.</p>
-
-	<p style="text-align: center; font-size: 16px" class="lead text-muted">Uche is committed to achieving his goals and continuously expanding his ventures. He also owns Machi Oil & Gas, a prominent fuel station chain in Nigeria. Despite his young age, his strategic investments and relentless pursuit of
-         success position him as a rising leader across multiple industries and continents.</p>
+					<div class="col-12 col-md-12 col-lg-6 d-flex align-items-center">
+						<div class="col text-md-center text-lg-start">
+								<h3>We are long-term investors in Africa’s most strategic sectors</h3>
+								
+							</div>
 					</div>
-					<div class="col-12 col-md-12 col-lg-6 d-flex">
-						<img src="img/user/uche.png" style="width: 100%; padding: 20px" alt="Girl in a jacket" >
+
+					<div class="col-12 col-md-12 col-lg-6 pe-lg-5">
+						<p style="font-size: 16px" class="lead text-muted">
+					At Shining Holdings, we are committed to delivering premium rental and hospitality services through 
+					strategic partnerships and industry expertise. We collaborate with top-tier Rental Agents who prioritize 
+					client satisfaction, operational efficiency, and excellence in service delivery.</p>
+					<p style="font-size: 16px" class="lead text-muted">With a strong foundation in hotel management, 
+						financial analysis, and managed care, our approach ensures a seamless and personalized experience for every client. 
+						Our adaptable and precise methodology is designed to support organizational goals while enhancing customer satisfaction.</p>
+					<p style=" font-size: 16px" class="lead text-muted">With a strong foundation in hotel management, 
+						We proudly serve the car rental and hospitality sectors, aligning our services with the highest standards of trust, reliability, and professionalism.
+						 At Shining Holdings, excellence isn’t just a goal — it’s our standard.</p>
 					</div>
+					
 				</div>
 			</div>
-			<!-- success notification begin -->
-			<div class="position-fixed bottom-0 end-0 p-4" style="z-index: 2">
-				<div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
-					<div class="toast-body text-primary">
-						<i class="fas fa-check-circle me-1"></i>Your message has been sent successfully. Thank you!
-					</div>
-				</div>
-			</div>
-			<!-- success notification end -->
 		</section>
+ 
+
+		<section style="margin-top:-10px;" class="py-5">
+			<div class="container">
+								<h5 style="text-align: center">The <span class="text-highlight">Founder</span></h5>
+
+				<div class="row d-md-flex justify-content-md-center gx-lg-5">
+					<div class="col-12 col-md-12 col-lg-6 d-flex align-items-center">
+						<div class="col text-md-center text-lg-start">
+								<img src="img/user/uche.png" style="width: 100%; height: auto" alt="Girl in a jacket">								
+							</div>
+					</div>
+					<div class="col-12 col-md-12 col-lg-6 pe-lg-5 d-flex align-items-center">
+    <div class="w-100 text-center">
+        <p style="font-size: 16px" class="lead text-muted">
+            <br>
+            Uche Godswill Onyemachi is a dynamic Nigerian entrepreneur and investor
+            with a diverse business portfolio spanning fashion, cryptocurrency, transportation, and energy.
+        </p>
+
+        <a href="bio.php" class="btn btn-primary rounded-pill mt-2">
+            Learn more <i class="fas fa-arrow-right fa-sm ms-1"></i>
+        </a>
+    </div>
+</div>
+
+
+
+
+					</div>
+				</div>
+				</div>
+			</div>
+		</div>
+		</section>
+
+
+
 <?php require_once("footer.php"); ?>

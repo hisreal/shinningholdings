@@ -21,8 +21,14 @@
 	<!-- stylesheet -->
 	<link rel="stylesheet" href="css/style.css">
 	<!-- Favicon -->
-	<link rel="shortcut icon" href="img/user/shinningpng.jpg" type="image/x-icon">
+	<link rel="shortcut icon" href="img/user/shinningpng.png" type="image/x-icon">
 	<!-- Touch icon -->
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
+/>
+
 	<link rel="apple-touch-icon-precomposed" href="img/apple-touch-icon.png">
 	<title>Shinning Holding || Manage & grow investment assets securely</title>
+	
 </head>

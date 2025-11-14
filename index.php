@@ -22,7 +22,7 @@
 						<div class="card card-green">
 							<div class="card-body p-3">
 								<div class="icon-wrap rounded-circle flex-shrink-0">
-									<i class="fas fa-seedling fa-lg"></i>
+									<i class="fas fa-power-off fa-lg"></i>
 								</div>
 								<h5 class="fw-bold mt-4">
 									<a href="#" class="link-light text-decoration-none d-flex justify-content-between align-items-center">
@@ -34,10 +34,10 @@
 						</div>
 					</div>
 					<div class="col">
-						<div class="card card-green">
+						<div class="card card-blue">
 							<div class="card-body p-3">
 								<div class="icon-wrap rounded-circle flex-shrink-0">
-									<i class="fas fa-chart-bar fa-lg"></i>
+									<i class="fas fa-code fa-lg"></i>
 								</div>
 								<h5 class="fw-bold mt-4">
 									<a href="#" class="link-light text-decoration-none d-flex justify-content-between align-items-center">
@@ -49,10 +49,10 @@
 						</div>
 					</div>
 					<div class="col">
-						<div class="card card-green">
+						<div class="card card-purple">
 							<div class="card-body p-3">
 								<div class="icon-wrap rounded-circle flex-shrink-0">
-									<i class="fas fa-chart-pie fa-lg"></i>
+									<i class="fas fa-bolt fa-lg"></i>
 								</div>
 								<h5 class="fw-bold mt-4">
 									<a href="#" class="link-light text-decoration-none d-flex justify-content-between align-items-center">
@@ -64,10 +64,10 @@
 						</div>
 					</div>
 					<div class="col">
-						<div class="card card-green">
+						<div class="card card-navy">
 							<div class="card-body p-3">
 								<div class="icon-wrap rounded-circle flex-shrink-0">
-									<i class="fas fa-chalkboard-teacher fa-lg"></i>
+									<i class="fas fa-building fa-lg"></i>
 								</div>
 								<h5 class="fw-bold mt-4">
 									<a href="#" class="link-light text-decoration-none d-flex justify-content-between align-items-center">
@@ -85,42 +85,35 @@
 		</section>
 		<!-- section content end -->                                   
 <?php require_once("counter.php"); ?>
-
-<!-- section content begin -->
+	<!-- section content begin -->
 		<section style="margin-top:-90px;" class="py-5">
 			<div class="container">
-				<div class="row d-md-flex justify-content-md-center gx-lg-5">
-					<div class="col-12 col-md-10 col-lg-6 pe-lg-5">
-						<p style="text-align: center; font-size: 16px" class="lead text-muted">
-                            Uche Godswill Onyemachi is a dynamic Nigerian entrepreneur and investor
-                             with a diverse business portfolio spanning fashion, cryptocurrency, transportation, and energy.</p>
-                        <p style="text-align: center; font-size: 16px" class="lead text-muted"> He learned fashion and design in Nigeria, where he laid the foundation for his entrepreneurial
-                            journey.
-                            In 2017-2018, Uche ventured into fashion design, establishing himself
-                                as a creative talent. He entered the cryptocurrency space in 2018,
-                                 becoming an active investor and advocate for blockchain technology.</>
+				<div class="row justify-content-center">
+					<div class="col-md-10 col-lg-9">
+						<div class="row row-cols-1 row-cols-lg-2 align-items-center gy-3">
+							<div class="col text-md-center text-lg-start">
+								<div class="row align-items-start gx-0 mb-2 mb-md-4">
+									<div class="col-12 col-md-12 text-md-end border-bottom border-primary">
+										<img src="img/user/uche.png" style="width: 100%; height: auto" alt="Girl in a jacket">
+									</div>
+								</div>
+							</div>
+							
+							<div class="col text-md-center text-lg-start">
+								<h1>Meet the founder of shinningholdings</h1>
+								<h4><span class="text-highlight">Uche Godswill Onyemachi.</span></h4>
+								<a href="about.php" class="btn btn-primary rounded-pill mt-2">Learn more<i class="fas fa-arrow-right fa-sm ms-1"></i></a>
+							</div>
 
-	<p style="text-align: center; font-size: 16px" class="lead text-muted">His entrepreneurial journey in transportation began in Nigeria in 2020, starting with a fleet
- of a few buses. Driven by his vision and determination, Uche upgraded his transportation business
-  to a luxury level, culminating in the launch of Plugluxx in South Africa in 2025 — a 
-  state-of-the-art luxury bus service designed to redefine travel experiences.</p>
+							
 
-	<p style="text-align: center; font-size: 16px" class="lead text-muted">Uche is committed to achieving his goals and continuously expanding his ventures. He also owns Machi Oil & Gas, a prominent fuel station chain in Nigeria. Despite his young age, his strategic investments and relentless pursuit of
-         success position him as a rising leader across multiple industries and continents.</p>
-					</div>
-					<div class="col-12 col-md-12 col-lg-6 d-flex">
-						<img src="img/user/uche.png" style="width: 100%; padding: 20px" alt="Girl in a jacket" >
+						</div>
 					</div>
 				</div>
 			</div>
-			<!-- success notification begin -->
-			<div class="position-fixed bottom-0 end-0 p-4" style="z-index: 2">
-				<div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
-					<div class="toast-body text-primary">
-						<i class="fas fa-check-circle me-1"></i>Your message has been sent successfully. Thank you!
-					</div>
-				</div>
-			</div>
-			<!-- success notification end -->
-		</section>
+		</div>
+	</section>
+
+
+		
 <?php require_once("footer.php"); ?>
