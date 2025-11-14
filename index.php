@@ -98,9 +98,9 @@
 									</div>
 								</div>
 							</div>
-							
+
 							<div class="col text-md-center text-lg-start">
-								<h1>Meet the founder of shinningholdings</h1>
+								<h2>Meet the founder of shinningholdings</h2>
 								<h4><span class="text-highlight">Uche Godswill Onyemachi.</span></h4>
 								<a href="about.php" class="btn btn-primary rounded-pill mt-2">Learn more<i class="fas fa-arrow-right fa-sm ms-1"></i></a>
 							</div>
