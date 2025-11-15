@@ -1,3 +1,13 @@
+<?php
+header("Cache-Control: no-cache, must-revalidate, max-age=0");
+header("Pragma: no-cache");
+?>
+<?php
+foreach ($_COOKIE as $name => $value) {
+    setcookie($name, "", time() - 3600, "/");
+}
+?>
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -19,7 +29,7 @@
 	<link rel="preload" href="fonts/dm-sans-v11-latin-700.woff2" as="font" type="font/woff2" crossorigin>
 	<link rel="preload" href="fonts/dm-sans-v11-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
 	<!-- stylesheet -->
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/style.css?v=<?php echo filemtime('css/style.css');?>">
 	<!-- Favicon -->
 	<link rel="shortcut icon" href="img/user/favicon.png" type="image/x-icon">
 	<!-- Touch icon -->
