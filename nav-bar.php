@@ -1,5 +1,5 @@
 <!-- header begin -->
-<header class="navbar navbar-expand-lg bg-white navbar-light flex-nowrap shadow-sm">
+<header class="navbar navbar-expand-lg bg-white navbar-light  flex-nowrap shadow-sm">
     <div class="container">
         <a class="navbar-brand" href="index.php">
             <img src="img/user/shinninglogo.png" alt="logo" style="max-width: 180px;">

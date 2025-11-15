@@ -99,11 +99,11 @@
 								</div>
 							</div>
 
-							<div class="col text-md-center text-lg-start">
+							<div style="text-align:center" class="col text-md-center text-lg-start">
 									<h5 class="main-head">Meet the founder</h5>
 								
-								<h6><span class="text-highlight">Uche Godswill Onyemachi.</span></h5>
-								<a href="about.php" class="btn btn-primary rounded-pill mt-2">Learn more<i class="fas fa-arrow-right fa-sm ms-1"></i></a>
+								<center><h6><span class="text-highlight">Uche Godswill Onyemachi.</span></h5></center>
+								<center><a href="about.php" class="btn btn-primary rounded-pill mt-2">Learn more<i class="fas fa-arrow-right fa-sm ms-1"></i></a></center>
 							</div>
 
 							

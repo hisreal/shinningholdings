@@ -21,7 +21,7 @@
 	<!-- stylesheet -->
 	<link rel="stylesheet" href="css/style.css">
 	<!-- Favicon -->
-	<link rel="shortcut icon" href="img/user/shinningpng.png" type="image/x-icon">
+	<link rel="shortcut icon" href="img/user/favicon.png" type="image/x-icon">
 	<!-- Touch icon -->
 <link
   rel="stylesheet"

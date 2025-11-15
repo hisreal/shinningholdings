@@ -18,7 +18,7 @@
         </p>
 
         <!-- Social icons -->
-        <div class="d-flex gap-3 mt-3" style="font-size: 16px;">
+        <div class="d-flex gap-3 mt-3">
           <a href="#" class="icon-circle"><i class="bi bi-facebook"></i></a>
           <a href="#" class="icon-circle"><i class="bi bi-instagram"></i></a>
           <a href="#" class="icon-circle"><i class="bi bi-x"></i></a>
@@ -37,16 +37,16 @@
         <ul style="font-size: 16px"  class="list-unstyled small">
           <li class="mb-2 d-flex">
             <span class="me-2 text-primary"><i class="bi bi-telephone-fill"></i></span>
-            <span>+234000000000000</span>
+            <span>+27 72 738 5452</span>
           </li>
           <li class="mb-2 d-flex">
             <span class="me-2 text-primary"><i class="bi bi-envelope-fill"></i></span>
-            <span>info@shinningsholdings.com</span>
+            <span>info@shinningholdings.com</span>
           </li>
           <li class="mb-2 d-flex">
             <span class="me-2 text-primary"><i class="bi bi-geo-alt-fill"></i></span>
             <span>
-             Lagos State, Nigeria
+             37 Bathrust Bend, Milnerton, Western Cape, 7441
             </span>
           </li>
           <li class="mb-2 d-flex">
@@ -106,13 +106,30 @@
     </div>
   </div>
 
-  <div class="bg-primary" style="height:50px;"></div>
+ <div class="footer-bottom bg-primary text-white py-3">
+  <div class="container">
+    <div class="row align-items-center">
+
+      <!-- Left: Copyright -->
+      <div style="color: white" class="col-md-4 text-center text-md-start mb-2 mb-md-0">
+        ©2025 Shinning Holdings
+      </div>
+
+      <!-- Right: Links -->
+      <div style="color: white" class="col-md-8 text-center text-md-end">
+        <a href="#" class="footer-link text-white mx-2">Privacy Policy</a>
+        <a href="#" class="footer-link text-white mx-2">Terms & Conditions</a>
+      </div>
+
+    </div>
+  </div>
+</div>
 </footer>
 
 
 <!-- footer end -->
 <!-- to top begin -->
-<div class="d-none d-md-block">
+<div style="color:white" class="d-none d-md-block">
   <a href="#" class="to-top fas fa-arrow-up text-decoration-none text-white"></a>
 </div>
 <!-- to top end -->
