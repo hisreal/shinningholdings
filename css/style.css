@@ -151,6 +151,7 @@
 }
 
 body {
+  
   margin: 0;
   font-family: var(--bs-body-font-family);
   font-size: var(--bs-body-font-size);
@@ -161,6 +162,14 @@ body {
   background-color: var(--bs-body-bg);
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+/* force the header to be truly fixed */
+header.navbar.fixed-top {
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1030;
 }
 
 hr {
@@ -24901,6 +24910,31 @@ a.bg-pinterest:hover {
   color: #BD081C;
 }
 
+.icon-circle {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background: #262626;             /* circle background */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.icon-circle i {
+  font-size: 18px;
+  color: #ffffff;                   /* icon color */
+}
+
+.icon-circle:hover {
+  background: #125a52;              /* hover background */
+}
+
+.icon-circle:hover i {
+  color: #ffffff;                   /* hover icon color */
+}
+
+
 a.color-pinterest {
   text-decoration: none;
 }
@@ -25232,6 +25266,16 @@ body.loaded .page-loader {
     height: 0;
   }
 }
+
+ 
+/* Default navbar at the top */
+header.navbar {
+  background: #ffffff !important;   /* solid white always */
+  transition: all 0.35s ease;
+  box-shadow: none;                 /* no shadow until scroll */
+}
+
+/* Sticky container (starts hidden) */
 .sticky-nav {
   position: fixed;
   top: 0;
@@ -25239,15 +25283,23 @@ body.loaded .page-loader {
   left: 0;
   z-index: 1080;
   transform: translateY(-100%);
-  transition: all 0.3s ease-in-out;
-  background: rgba(255, 255, 255, 0.75);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-  box-shadow: 0 0 25px rgba(0, 0, 0, 0.08);
+  background: #ffffff !important;   /* keep it solid white */
+  transition: all 0.35s ease;
 }
+
+.main-head{
+  text-align: center;
+  color: #125a52;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+/* Activated when scrolling */
 .sticky-nav.active {
   transform: translateY(0%);
+  background: #ffffff !important;   /* solid white */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15); /* shadow only on scroll */
 }
+
 .sticky-nav.navbar {
   height: 64px;
 }

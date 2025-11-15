@@ -3,7 +3,7 @@
 		<div class="container">
 			<div class="row justify-content-center">
 				<div class="col-md-10 col-lg-8">
-					<h5 style="text-align: center">Explore Our <span class="text-highlight">Investment</span></h5>
+					<h5 class="main-head">Explore Our Investment</span></h5>
 					<p style="text-align: center; font-size: 16px" class="lead text-muted">Working to deliver long-term sustainable value whilst improving lives and
 						 transforming Africa. Value of our portfolio companies as at 31 October 2025 is N16.54 trillion ($11.63 billion).</p>
 				</div>

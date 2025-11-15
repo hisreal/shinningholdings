@@ -19,7 +19,7 @@
 				<div class="row d-md-flex justify-content-md-center gx-lg-5">
 					<div class="col-12 col-md-12 col-lg-6 d-flex align-items-center">
 						<div class="col text-md-center text-lg-start">
-								<h3>We are long-term investors in Africa’s most strategic sectors</h3>
+								<h5 class="main-head" style="text-transform: capitalize; float: left" >We are long-term investors in Africa’s most strategic sectors</h5>
 								
 							</div>
 					</div>
@@ -44,7 +44,7 @@
 
 		<section style="margin-top:-10px;" class="py-5">
 			<div class="container">
-								<h5 style="text-align: center">The <span class="text-highlight">Founder</span></h5>
+								<h5 class="main-head"> The Founder </h5>
 
 				<div class="row d-md-flex justify-content-md-center gx-lg-5">
 					<div class="col-12 col-md-12 col-lg-6 d-flex align-items-center">

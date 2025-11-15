@@ -21,7 +21,7 @@
   to a luxury level, culminating in the launch of Plugluxx in South Africa in 2025 — a 
   state-of-the-art luxury bus service designed to redefine travel experiences.</p>
 
-	<p style="text-align: center; font-size: 16px" class="lead text-muted">Uche is committed to achieving his goals and continuously expanding his ventures. He also owns Machi Oil & Gas, a prominent fuel station chain in Nigeria. Despite his young age, his strategic investments and relentless pursuit of
+	<p style="text-align: center; font-size: 16px" class="lead text-muted">Uche is committed to achieving his goals and continuously expanding his ventures. Despite his young age, his strategic investments and relentless pursuit of
          success position him as a rising leader across multiple industries and continents.</p>
 					</div>
 					<div class="col-12 col-md-12 col-lg-6 d-flex">

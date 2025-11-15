@@ -18,14 +18,15 @@
         </p>
 
         <!-- Social icons -->
-        <div style="font-size: 16px"  class="d-flex gap-3 mt-3">
-          <a href="#" class="text-muted fs-5"><i class="text-primary bi bi-facebook"></i></a>
-          <a href="#" class="text-muted fs-5"><i class="text-primary bi bi-instagram"></i></a>
-          <a href="#" class="text-muted fs-5"><i class="text-primary bi bi-x"></i></a>
-          <a href="#" class="text-muted fs-5"><i class="text-primary bi bi-linkedin"></i></a>
-          <a href="#" class="text-muted fs-5"><i class="text-primary bi bi-globe"></i></a>
-          <a href="#" class="text-muted fs-5"><i class="text-primary bi bi-youtube"></i></a>
-        </div>
+        <div class="d-flex gap-3 mt-3" style="font-size: 16px;">
+          <a href="#" class="icon-circle"><i class="bi bi-facebook"></i></a>
+          <a href="#" class="icon-circle"><i class="bi bi-instagram"></i></a>
+          <a href="#" class="icon-circle"><i class="bi bi-x"></i></a>
+          <a href="#" class="icon-circle"><i class="bi bi-linkedin"></i></a>
+          <a href="#" class="icon-circle"><i class="bi bi-globe"></i></a>
+          <a href="#" class="icon-circle"><i class="bi bi-youtube"></i></a>
+      </div>
+
       </div>
 
       <!-- Middle: Contact info -->
@@ -122,5 +123,25 @@
 <script src="js/vendors/apexcharts.min.js"></script>
 <script src="js/utilities.min.js"></script>
 <script src="js/config-theme.js"></script>
+<script>
+  // Stop template sticky menu completely
+  const oldSticky = window.StickyMenu;
+  window.StickyMenu = function() { return { init: function(){} }; };
+</script>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  const nav = document.querySelector("header.navbar");
+
+  window.addEventListener("scroll", function() {
+    if (window.scrollY > 20) {
+      nav.classList.add("sticky-nav", "active");
+    } else {
+      nav.classList.remove("sticky-nav", "active");
+    }
+  });
+});
+</script>
+
+
 </body>
 </html>

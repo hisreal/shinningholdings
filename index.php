@@ -6,7 +6,7 @@
 	<div class="container">
 		<div class="row justify-content-center">
 			<div class="col-md-10 col-lg-8">
-				<h5 style="text-align: center">Learn More <span class="text-highlight">About</span> Us</h5>
+				<h5 class="main-head">Learn More About Us</h5>
 				<p style="text-align: center; font-size: 16px" class="lead text-muted">At Shining Holdings, we are committed to delivering premium rental and hospitality services through
                              strategic partnerships and industry expertise. We collaborate with top-tier Rental Agents who prioritize 
                              client satisfaction, operational efficiency, and excellence in service delivery</p>
@@ -100,8 +100,9 @@
 							</div>
 
 							<div class="col text-md-center text-lg-start">
-								<h2>Meet the founder of shinningholdings</h2>
-								<h4><span class="text-highlight">Uche Godswill Onyemachi.</span></h4>
+									<h5 class="main-head">Meet the founder</h5>
+								
+								<h6><span class="text-highlight">Uche Godswill Onyemachi.</span></h5>
 								<a href="about.php" class="btn btn-primary rounded-pill mt-2">Learn more<i class="fas fa-arrow-right fa-sm ms-1"></i></a>
 							</div>
 
