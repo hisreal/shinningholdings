@@ -2,79 +2,116 @@
 <?php require_once("page_loader.php"); ?>
 <?php require_once("nav-bar.php");?>
 <!-- breadcrumb content begin -->
-	<section class="section-breadcrumb">
-		<div class="container">
-			<div class="row">
-				<div class="col-12 position-relative text-center">
-					<h1 class="mt-0 mb-1">Contact</h1>
-					<nav aria-label="breadcrumb">
-						<ol class="breadcrumb mb-0">
-							<li  class="breadcrumb-item"><a href="#">Home</a></li>
-						</ol>
-					</nav>
-					
-			</div>
-		</div>
-	</section>
+	<section class=" hero-banner">
+  <div class="container">
+    <div class="row ">
+      <div class="hero-content col-md-10 col-lg-8">
+        <h1 class="fw-bold display-4 mb-3">
+       Contact
+        </h1>
+        
+      </div>
+    </div>
+  </div>
+</section>
 
 <main>
+
+<section style="margin-top:-10px;" class="py-5">
+    <div class="container">
+       
+        <div class="row d-md-flex justify-content-md-center gx-lg-5">
+
+		<div class="col-12 col-md-12 col-lg-6 pe-lg-5 d-flex align-items-center">
+                <div class="w-100 ">
+					<h5 style="float: left" class="main-head">get in touch</h5>
+                  <br>
+				  <br>
+					 <ul style="font-size: 16px"  class="list-unstyled small">
+          <li class="mb-2 d-flex">
+            <span class="me-2 text-primary"><i class="bi bi-telephone-fill"></i></span>
+            <span>+27 72 738 5452</span>
+          </li>
+          <li class="mb-2 d-flex">
+            <span class="me-2 text-primary"><i class="bi bi-envelope-fill"></i></span>
+            <span>info@shinningholdings.com</span>
+          </li>
+          <li class="mb-2 d-flex">
+            <span class="me-2 text-primary"><i class="bi bi-geo-alt-fill"></i></span>
+            <span>
+             37 Bathrust Bend, Milnerton, Western Cape, 7441
+            </span>
+          </li>
+						</ul>
+					<!-- Social icons -->
+        <div style="margin-bottom: 20px" class="d-flex gap-3 mt-3">
+          <a href="#" class="text-secondary"><i class="bi bi-facebook"></i></a>
+          <a href="#" class="text-secondary"><i class="bi bi-instagram"></i></a>
+          <a href="#" class="text-secondary"><i class="bi bi-x"></i></a>
+          <a href="#" class="text-secondary"><i class="bi bi-linkedin"></i></a>
+          <a href="#" class="text-secondary"><i class="bi bi-globe"></i></a>
+          <a href="#" class="text-secondary"><i class="bi bi-youtube"></i></a>
+      </div>
+                   
+                </div>
+            </div>
+
+
+            <div class="col-12 col-md-12 col-lg-6 d-flex align-items-center">
+                <div  class="col text-md-center text-lg-start">
+						<iframe class="bg-light rounded-1 gmap w-100 h-200 h-md-250 h-lg-400" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10600.5248164368!2d144.95966577016594!3d-37.81707816290683!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d4c2b349649%3A0xb6899234e561db11!2sEnvato!5e0!3m2!1sen!2sid!4v1645280096951!5m2!1sen!2sid">
+						</iframe>
+				 </div>
+            </div>
+
+            
+        </div>
+    </div>
+</section>
+
+
+
+
 		<!-- section content begin -->
 		<section class="py-5">
 			<div class="container">
 				<div class="row d-md-flex justify-content-md-center gx-lg-5">
+					<div class="col-12 col-md-12 col-lg-6 ">
+						<img src="img/user/uche.png" style="width: 100%" alt="Girl in a jacket">
+						<br>
+						<br>
+						<br>								
+					</div>
+
 					<div class="col-12 col-md-10 col-lg-6 pe-lg-5">
-						<h4 class="text-secondary mb-0">Have a questions?</h4>
-						<h1 class="mb-0">Let's <span class="text-highlight">get in touch</span></h1>
+						<h4 class="text-secondary mb-0">Send a Message</h4>
+						<p style="font-size: 16px" class="lead text-muted">Please fill in the form below to get in touch with us.</p>
 						<form id="contact-form" class="row g-1 mt-2" novalidate="">
-							<div class="col-6">
+							<div class="col-md-6">
 								<input class="form-control" id="name" name="name" type="text" placeholder="Full name" aria-label="Full name" required="">
 							</div>
-							<div class="col-6">
+							<div class="col-md-6">
 								<input class="form-control" id="email" name="email" type="email" placeholder="Email address" aria-label="Email address" required="">
 							</div>
-							<div class="col-12">
+							<div class="col-md-6">
 								<input class="form-control" id="subject" name="subject" type="text" placeholder="Subject" aria-label="Subject" required="">
+							</div>
+							<div class="col-md-6">
+								<input class="form-control" id="phone" name="subject" type="text" placeholder="Phone Number" aria-label="Subject" required="">
 							</div>
 							<div class="col-12">
 								<textarea class="form-control" id="message" name="message" placeholder="Message" rows="6" required=""></textarea>
 							</div>
-							<div class="d-grid">
-								<button class="btn btn-primary rounded-pill" id="sendemail" type="submit" name="submit">Send Message</button>
+							<p style="font-size: 16px" class="lead text-muted">By clicking submit, you agree to our 
+								<a style="text-decoration: none" href="">Terms</a> and <a style="text-decoration: none"  href="">Data Collection Clause.</a> You may receive notification from us and can opt out at 
+								any time.</p>
+							<div  class="d-grid">
+								<button style="max-width: 200px" class="btn btn-primary mt-2" id="sendemail" type="submit" name="submit">Send Message</button>
 							</div>
 						</form>
-						<div class="card mb-4 mb-md-4 mb-lg-0 mt-4">
-							<div class="card-body">
-								<div class="d-flex align-items-center">
-									<div class="me-1 icon-wrap icon-wrap-small bg-primary rounded-circle flex-shrink-0">
-										<i class="fas fa-map-marker-alt"></i>
-									</div>
-									<p class="mb-0">Satrio Tower 16th, Jl. Dr Satrio Kuningan, Jakarta</p>
-								</div>
-								<div class="row row-cols-1 row-cols-md-2 row-cols-lg-2 mt-1 gx-lg-0">
-									<div class="col mb-2 mb-md-0 mb-lg-0">
-										<div class="d-flex align-items-center">
-											<div class="me-1 icon-wrap icon-wrap-small bg-primary rounded-circle flex-shrink-0">
-												<i  class="fas fa-envelope"></i>
-											</div>
-											<p class="mb-0">hello@avo-invest.id</p>
-										</div>
-									</div>
-									<div class="col">
-										<div class="d-flex align-items-center">
-											<div class="me-1 icon-wrap icon-wrap-small bg-primary rounded-circle flex-shrink-0">
-												<i class="fas fa-phone"></i>
-											</div>
-											<p class="mb-0">(888)234-5686</p>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
+						
 					</div>
-					<div class="col-12 col-md-12 col-lg-6 d-flex">
-						<iframe class="bg-light rounded-1 gmap w-100 h-300 h-md-400 h-lg-600" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10600.5248164368!2d144.95966577016594!3d-37.81707816290683!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d4c2b349649%3A0xb6899234e561db11!2sEnvato!5e0!3m2!1sen!2sid!4v1645280096951!5m2!1sen!2sid">
-						</iframe>
-					</div>
+				
 				</div>
 			</div>
 			<!-- success notification begin -->

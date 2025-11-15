@@ -13,6 +13,9 @@
   src: local("DM Sans Bold"), local("DM-Sans-Bold"), url("../fonts/dm-sans-v11-latin-700.woff2") format("woff2"), url("../fonts/dm-sans-v11-latin-700.woff") format("woff");
   font-display: block;
 }
+body{
+ background-color: #f7f7f7;
+}
 :root,
 [data-bs-theme=light] {
   --bs-blue: #0d6efd;
