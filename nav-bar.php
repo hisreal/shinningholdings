@@ -22,11 +22,11 @@
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="dropdownInvestment" data-bs-toggle="dropdown" aria-expanded="false">Investment</a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#overview">Overview</a></li>
-                        <li><a class="dropdown-item" href="#power">Power</a></li>
-                        <li><a class="dropdown-item" href="#technology">Technology</a></li>
-                        <li><a class="dropdown-item" href="#energy">Energy</a></li>
-                        <li><a class="dropdown-item" href="#estate">Real Estate and Hospitality</a></li>
+                        <li><a class="dropdown-item" href="investments.php#overview">Overview</a></li>
+                        <li><a class="dropdown-item" href="investments.php##power">Power</a></li>
+                        <li><a class="dropdown-item" href="investments.php##technology">Technology</a></li>
+                        <li><a class="dropdown-item" href="investments.php##energy">Energy</a></li>
+                        <li><a class="dropdown-item" href="investments.php##estate">Real Estate and Hospitality</a></li>
                     </ul>
                 </li>
 
