@@ -23,10 +23,10 @@
                     <a class="nav-link dropdown-toggle" href="investments.php" id="dropdownInvestment" data-bs-toggle="dropdown" aria-expanded="false">Investment</a>
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="investments.php#overview">Overview</a></li>
-                        <li><a class="dropdown-item" href="investments.php##power">Power</a></li>
-                        <li><a class="dropdown-item" href="investments.php##technology">Technology</a></li>
-                        <li><a class="dropdown-item" href="investments.php##energy">Energy</a></li>
-                        <li><a class="dropdown-item" href="investments.php##estate">Real Estate and Hospitality</a></li>
+                        <li><a class="dropdown-item" href="investments.php#power">Power</a></li>
+                        <li><a class="dropdown-item" href="investments.php#technology">Technology</a></li>
+                        <li><a class="dropdown-item" href="investments.php#energy">Energy</a></li>
+                        <li><a class="dropdown-item" href="investments.php#estate">Real Estate and Hospitality</a></li>
                     </ul>
                 </li>
 
