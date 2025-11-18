@@ -94,7 +94,7 @@
 							<div class="col text-md-center text-lg-start">
 								<div class="row align-items-start gx-0 mb-2 mb-md-4">
 									<div class="col-12 col-md-12 text-md-end border-bottom border-primary">
-										<img src="img/user/uche.png" style="width: 100%; height: auto" alt="Girl in a jacket">
+										<img src="img/user/uche3.png" style="width: 100%; height: auto" alt="Girl in a jacket">
 									</div>
 								</div>
 							</div>

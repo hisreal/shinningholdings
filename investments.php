@@ -13,6 +13,23 @@
     </div>
   </div>
 </section>
+<!--<section class="py-5"> 
+  <ul class="nav justify-content-center">
+    <li class="nav-item">
+      <a class="nav-link active" aria-current="page" href="#">Active</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Link</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Link</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+    </li>
+  </ul>
+</section>-->
+
 
 <section id="overview" class="py-5 in-avo-2">  
     <div class="container">
