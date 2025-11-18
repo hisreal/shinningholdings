@@ -25,7 +25,7 @@
          success position him as a rising leader across multiple industries and continents.</p>
 					</div>
 					<div class="col-12 col-md-12 col-lg-6 d-flex">
-						<img src="img/user/uche4.jpg" style="width: 100%; padding: 20px" alt="Handsome Founder " >
+						<img src="img/user/uchefour.JPG" style="width: 100%; padding: 20px" alt="Handsome Founder " >
 					</div>
 				</div>
 			</div>
