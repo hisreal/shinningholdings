@@ -1,7 +1,18 @@
 <?php require_once("header.php"); ?>
 <?php require_once("page_loader.php"); ?>
 <?php require_once("nav-bar.php");?>
-<?php require_once("slider.php"); ?>
+<section class=" hero-banner">
+  <div class="container">
+    <div class="row ">
+      <div class="hero-content col-md-10 col-lg-8">
+        <h1 class="fw-bold display-4 mb-3">
+          Meet The Founder
+        </h1>
+        
+      </div>
+    </div>
+  </div>
+</section>
 <!-- section content begin -->
 		<section  class="py-5">
 			<div class="container">
