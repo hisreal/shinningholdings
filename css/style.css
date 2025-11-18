@@ -26151,11 +26151,11 @@ background: linear-gradient(148deg, rgb(18, 90, 82) 0%, rgba(18, 90, 82, 0.5) 86
 }
 .in-avo-8 a.card {
   display: block;
-  background: transparent;
+  background: white;
   border-color: rgba(219, 47, 105, 0.4);
 }
 .in-avo-8 a.card i {
-  background: #FEF8FB;
+  background: white;
   border-left: 22px solid #FEF8FB;
   border-right: 22px solid #FEF8FB;
   margin-bottom: -40px;
