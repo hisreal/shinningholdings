@@ -25932,9 +25932,11 @@ html {
   padding-bottom: 5px;
   font-weight: 600;
 }
-
+.highlights a{
+  font-weight: 200;
+}
 @media (max-width: 768px) {
-  .highlights {
+  .highlights  {
     display: none !important;
   }
 }

@@ -15,8 +15,8 @@
 </section>
 
 <section style="margin-top:-50px;" class="py-5 highlights fade-in-bottom"> 
-  <ul style="text-transform: uppercase" class="nav  justify-content-center">
-    <li class="nav-item">
+  <ul style="text-transform: uppercase; font-weight: 100" class="nav  justify-content-center">
+    <li style="text-transform: uppercase; font-weight: 100" class="nav-item">
       <a class="nav-link" href="#overview">Highlights</a>
     </li>
     <li class="nav-item">
@@ -45,7 +45,6 @@
                   The value of our portfolio companies as at 31 October 2025 is $1.2Million.
                 </p>
 
-                <img src="img/services/portfolio.png" style="width: 100%; height: auto" alt="investment portfolio">
                  <h5 class="main-head">Investment Philosophy</h5>
                 <p style="text-align: center; font-size: 16px" class="lead text-muted fade-in-bottom">
                   We operates with a clear long-term vision, investing with the future in mind rather than chasing short-term gains. Our work is driven by
@@ -75,7 +74,7 @@
 
          <div id="technology" class="bg-block mb-4" 
              style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
-             url('img/services/power-image.jpg'); border-radius: 15px;">
+             url('img/services/technology-image.jpg'); border-radius: 15px;">
             <div class="bg-overlay-text">
                <h1 class="fw-bold display-4 mb-3">
                  Technology
