@@ -26207,6 +26207,14 @@ background: linear-gradient(148deg, rgb(18, 90, 82) 0%, rgba(18, 90, 82, 0.5) 86
   position: relative;
   top: -54px;
 }
+.header-link{
+  text-decoration: none;
+}
+
+.header-link:hover{
+  color: #262626;
+  text-decoration: none;
+}
 .in-avo-8 a.card:hover {
   border-color: rgb(219, 47, 105);
   box-shadow: rgba(219, 47, 105, 0.1) 0px 4px 12px 0px;
