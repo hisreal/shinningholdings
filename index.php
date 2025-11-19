@@ -121,7 +121,7 @@
     </div>
 </section>
 		<!-- section content end -->                                   
-<?php require_once("counter.php"); ?>
+<?php require_once("counterr.php"); ?>
 	<!-- section content begin -->
 		<section style="margin-top:-90px;" class="py-5">
 			<div class="container">
