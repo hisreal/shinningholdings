@@ -123,7 +123,7 @@
 		<!-- section content end -->                                   
 <?php require_once("counterr.php"); ?>
 	<!-- section content begin -->
-		<section style="margin-top:-90px;" class="py-5">
+		<!--<section style="margin-top:-90px;" class="py-5">
 			<div class="container">
 				<div class="row justify-content-center">
 					<div class="col-md-10 col-lg-9">
@@ -131,7 +131,7 @@
 							<div class="col text-md-center text-lg-start">
 								<div class="row align-items-start gx-0 mb-2 mb-md-4">
 									<div class="col-12 col-md-12 text-md-end border-bottom border-primary">
-										<img src="img/user/uche3.png" style="width: 100%; height: auto" alt="Girl in a jacket">
+										<img src="img/user/left-image.png" style="width: 100%; height: auto" alt="Girl in a jacket">
 									</div>
 								</div>
 							</div>
@@ -148,36 +148,51 @@
 				</div>
 			</div>
 		</div>
-	</section>
+	</section>-->
+<section style="margin-top:-100px;" class="py-5">
+    <div class="container">
+<div class="row d-flex justify-content-center align-items-center">
 
-<section style="margin-top:-50px;" class="py-5">
+            <div class="col-md-6">
+                <img src="img/user/left-image.png" style="width: 100%; height: auto; padding: 10px;" alt="Left image">
+            </div>
+
+            <div class="col-md-6">
+                <img src="img/user/right.jpg" style="width: 100%; height: auto;" alt="Right image">
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section style="margin-top:-100px;" class="py-5">
 <div class="container">
 	<div class="row justify-content-center ">
 					<div class="col-md-12 col-lg-10">
 						<div class=" card-body text-center">
 							<h5 class="main-head">WHY INVEST WITH US</h5>
-							<div class="row row-cols-1 row-cols-md-4">
-								<div style="border-left: 1px solid red" class="col">
-									
+							<div  class="row row-cols-1 row-cols-md-4">
+								<div style="padding: 5px" class="col">
+								<a  style="border: 1px solid #125a52; background-color: white"  class="card card-body text-center">
 									<p>Strong presence in South Africa & Nigeria</p>
+								</a>
 								</div>
-								<div class="col">
-									
+								<div style="padding: 5px"class="col">
+								<a  style="border: 1px solid #125a52; background-color: white"  class="card card-body text-center">
 									<p>Clear growth strategy across Africa</p>
+								</a>
 								</div>
-								<div class="col">
-									<div class="icon-wrap bg-primary rounded-circle flex-shrink-0 mb-1">
-										<span class="fw-bold fs-4 text-white">3</span>
-									</div>
-									
-									<p>Disciplined, impact-focused investment approach</p>
-								</div>
-								<div class="col">
-									<div class="icon-wrap bg-primary rounded-circle flex-shrink-0 mb-1">
-										<span  class="fw-bold fs-4 text-white">4</span>
-									</div>
+								<div style="padding: 5px" class="col">
 								
+								<a  style="border: 1px solid #125a52; background-color: white"  class="card card-body text-center">
+									<p>Disciplined, impact-focused investment approach</p>
+								</a>
+								</div>
+								<div style="padding: 5px" class="col">
+									
+								<a  style="border: 1px solid #125a52; background-color: white"  class="card card-body text-center">
 									<p>Transparent governance and reporting</p>
+								</a>
 								</div>
 							</div>
 						</div>
@@ -185,5 +200,6 @@
 				</div>
 			</div>
 		</section>
+
 <?php require_once("call.php"); ?>
 <?php require_once("footer.php"); ?>

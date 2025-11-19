@@ -14,33 +14,44 @@
   </div>
 </section>
 <!-- section content begin -->
-		<section style="margin-top:-10px;" class="py-5">
-			<div class="container">
-				<div class="row d-md-flex justify-content-md-center gx-lg-5">
-					<div class="col-12 col-md-12 col-lg-6 d-flex align-items-center">
-						<div class="col text-md-center text-lg-start">
-								<h5 class="main-head" style="text-transform: capitalize; float: left" >We are long-term investors in Africa’s most strategic sectors</h5>
-								
-							</div>
-					</div>
+		<section class="py-5">
+    <div class="container">
+        <div class="row align-items-center">
 
-					<div class="col-12 col-md-12 col-lg-6 pe-lg-5">
-						<p style="font-size: 16px" class="lead text-muted">
-					At Shining Holdings, we are committed to delivering premium rental and hospitality services through 
-					strategic partnerships and industry expertise. We collaborate with top-tier Rental Agents who prioritize 
-					client satisfaction, operational efficiency, and excellence in service delivery.</p>
-					<p style="font-size: 16px" class="lead text-muted">With a strong foundation in hotel management, 
-						financial analysis, and managed care, our approach ensures a seamless and personalized experience for every client. 
-						Our adaptable and precise methodology is designed to support organizational goals while enhancing customer satisfaction.</p>
-					<p style=" font-size: 16px" class="lead text-muted">With a strong foundation in hotel management, 
-						We proudly serve the car rental and hospitality sectors, aligning our services with the highest standards of trust, reliability, and professionalism.
-						 At Shining Holdings, excellence isn’t just a goal — it’s our standard.</p>
-					</div>
-					
-				</div>
-			</div>
-		</section>
- 
+            <!-- RIGHT SIDE (Heading) will show FIRST on mobile -->
+            <div class="col-12 col-lg-6 order-1 order-lg-2 
+            d-flex justify-content-center align-items-center 
+            text-center text-lg-start mb-4 mb-lg-0">
+
+			<h2 class="text-primary 
+					fs-5 fs-sm-4 fs-md-3 fs-lg-2" 
+				style="line-height: 1.3; font-weight: 200">
+
+				We are long-term investors in 
+				<span class="d-none d-lg-inline"><br></span>
+				Africa’s most strategic sectors
+			</h2>
+		</div>
+            <!-- LEFT SIDE (Paragraphs) -->
+            <div class="col-12 col-lg-6 order-2 order-lg-1">
+              <p style="font-size: 16px; text-align: justify" class="lead text-muted">
+    At <strong>Shining Holdings</strong>, we are committed to delivering premium rental and hospitality services through strategic partnerships and industry expertise. We collaborate with top-tier Rental Agents who prioritize client satisfaction, operational efficiency, and excellence in service delivery.
+</p>
+
+<p style="font-size: 16px; text-align: justify" class="lead text-muted">
+    With a strong foundation in hotel management, financial analysis, and managed care, our approach ensures a seamless and personalized experience for every client. Our adaptable and precise methodology is designed to support organizational goals while enhancing customer satisfaction.
+</p>
+
+<p style="font-size: 16px; text-align: justify" class="lead text-muted">
+    We proudly serve the car rental and hospitality sectors, aligning our services with the highest standards of trust, reliability, and professionalism. At Shining Holdings, excellence isn’t just a goal — <strong>it’s our standard</strong>.
+</p>
+
+            </div>
+
+        </div>
+    </div>
+</section>
+
 
 		<section style="margin-top:-10px;" class="py-5">
 			<div class="container">
@@ -49,7 +60,7 @@
 				<div class="row d-md-flex justify-content-md-center gx-lg-5">
 					<div class="col-12 col-md-12 col-lg-6 d-flex align-items-center">
 						<div class="col text-md-center text-lg-start">
-								<img src="img/user/uche.png" style="width: 100%; height: auto" alt="Girl in a jacket">								
+								<img src="img/user/about.png" style="width: 100%; height: auto" alt="Girl in a jacket">								
 							</div>
 					</div>
 					<div class="col-12 col-md-12 col-lg-6 pe-lg-5 d-flex align-items-center">

@@ -25940,6 +25940,11 @@ html {
     display: none !important;
   }
 }
+@media (max-width: 576px) {
+    .mobile-small-text {
+        font-size: 12px;
+    }
+}
 
 .fade-in-bottom {
   opacity: 0;
