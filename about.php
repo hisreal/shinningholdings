@@ -19,21 +19,22 @@
         <div class="row align-items-center">
 
             <!-- RIGHT SIDE (Heading) will show FIRST on mobile -->
-            <div class="col-12 col-lg-6 order-1 order-lg-2 
+           <div class="col-12 col-lg-6 order-1 order-lg-2 
             d-flex justify-content-center align-items-center 
-            text-center text-lg-start mb-4 mb-lg-0">
+            text-start mb-4 mb-lg-0">
 
-			<h2 class="text-primary 
-					fs-5 fs-sm-4 fs-md-3 fs-lg-2" 
-				style="line-height: 1.3; font-weight: 200">
+    <h2 class="text-primary 
+               fs-5 fs-sm-4 fs-md-3 fs-lg-2 fade-in-bottom" 
+        style="line-height: 1.3; font-weight: 200">
 
-				We are long-term investors in 
-				<span class="d-none d-lg-inline"><br></span>
-				Africa’s most strategic sectors
-			</h2>
-		</div>
+        We are long-term investors in 
+        <span class="d-none d-lg-inline"><br></span>
+        Africa’s most strategic sectors
+    </h2>
+</div>
+
             <!-- LEFT SIDE (Paragraphs) -->
-            <div class="col-12 col-lg-6 order-2 order-lg-1">
+            <div class="col-12 col-lg-6 order-2 order-lg-1 fade-in-bottom">
               <p style="font-size: 16px; text-align: justify" class="lead text-muted">
     At <strong>Shining Holdings</strong>, we are committed to delivering premium rental and hospitality services through strategic partnerships and industry expertise. We collaborate with top-tier Rental Agents who prioritize client satisfaction, operational efficiency, and excellence in service delivery.
 </p>
@@ -64,7 +65,7 @@
 							</div>
 					</div>
 					<div class="col-12 col-md-12 col-lg-6 pe-lg-5 d-flex align-items-center">
-    <div class="w-100 text-center">
+    <div class="w-100 ">
         <p style="font-size: 16px" class="lead text-muted">
             <br>
             Uche Godswill Onyemachi is a dynamic Nigerian entrepreneur and investor
