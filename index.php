@@ -157,17 +157,11 @@
 						<div class=" card-body text-center">
 							<h5 class="main-head">WHY INVEST WITH US</h5>
 							<div class="row row-cols-1 row-cols-md-4">
-								<div class="col">
-									<div class="icon-wrap bg-primary rounded-circle flex-shrink-0 mb-1">
-										<span class="fw-bold fs-4 text-white">1</span>
-									</div>
+								<div style="border-left: 1px solid red" class="col">
 									
 									<p>Strong presence in South Africa & Nigeria</p>
 								</div>
 								<div class="col">
-									<div class="icon-wrap bg-primary rounded-circle flex-shrink-0 mb-1">
-										<span class="fw-bold fs-4 text-white">2</span>
-									</div>
 									
 									<p>Clear growth strategy across Africa</p>
 								</div>
