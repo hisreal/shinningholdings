@@ -172,7 +172,7 @@ header.navbar.fixed-top {
     top: 0;
     left: 0;
     right: 0;
-    z-index: 1030;
+    z-index: 2000;
 }
 
 hr {
@@ -13544,6 +13544,7 @@ textarea.form-control-lg {
   z-index: 1;
 }
 
+
 .navbar-nav {
   margin-left: 40px;
   z-index: 1;
@@ -13566,6 +13567,8 @@ textarea.form-control-lg {
 .navbar-nav .dropdown-large-menu .child-menu-text {
   padding-top: 0.3rem;
 }
+
+
 
 .page-item:first-child .page-link {
   border-top-left-radius: 8px;
@@ -25284,10 +25287,14 @@ header.navbar {
   top: 0;
   right: 0;
   left: 0;
-  z-index: 1080;
-  transform: translateY(-100%);
-  background: #ffffff !important;   /* keep it solid white */
-  transition: all 0.35s ease;
+  z-index: 2000;
+  transform: translateY(-100%); /* hidden above the page */
+  background: #ffffff !important;  
+  transition: transform 0.35s ease; /* smoother animation */
+}
+
+.sticky-nav.active {
+  transform: translateY(0); /* slides down into view */
 }
 
 .main-head{
@@ -25912,6 +25919,44 @@ header.navbar {
     border-right: 0 !important;
   }
 }
+html {
+  scroll-behavior: smooth;
+}
+.nav-link.active {
+  border-bottom: 3px solid #125a52; /* your color */
+  padding-bottom: 5px;
+  font-weight: 600;
+}
+.nav-link.hover {
+  border-bottom: 3px solid #125a52; /* your color */
+  padding-bottom: 5px;
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .highlights {
+    display: none !important;
+  }
+}
+
+.fade-in-bottom {
+  opacity: 0;
+  transform: translateY(40px);
+  animation: fadeInBottom 0.9s ease-out forwards;
+}
+
+@keyframes fadeInBottom {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
 .in-avo-2 .active-col {
 background: linear-gradient(148deg, rgb(18, 90, 82) 0%, rgba(18, 90, 82, 0.5) 86%);
   background: background: linear-gradient(148deg, rgb(18, 90, 82) 0%, rgba(18, 90, 82, 0.5) 86%);
@@ -26156,8 +26201,8 @@ background: linear-gradient(148deg, rgb(18, 90, 82) 0%, rgba(18, 90, 82, 0.5) 86
 }
 .in-avo-8 a.card i {
   background: white;
-  border-left: 22px solid #FEF8FB;
-  border-right: 22px solid #FEF8FB;
+  border-left: 22px solid white;
+  border-right: 22px solid white;
   margin-bottom: -40px;
   position: relative;
   top: -54px;

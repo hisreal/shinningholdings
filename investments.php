@@ -13,41 +13,44 @@
     </div>
   </div>
 </section>
-<!--<section class="py-5"> 
-  <ul class="nav justify-content-center">
+
+<section style="margin-top:-50px;" class="py-5 highlights fade-in-bottom"> 
+  <ul style="text-transform: uppercase" class="nav  justify-content-center">
     <li class="nav-item">
-      <a class="nav-link active" aria-current="page" href="#">Active</a>
+      <a class="nav-link" href="#overview">Highlights</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#">Link</a>
+      <a class="nav-link" href="#power">Power</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#">Link</a>
+      <a class="nav-link" href="#technology">Technology</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+      <a class="nav-link" href="#energy">Energy</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#estate">Real Estate and Hospitality</a>
     </li>
   </ul>
-</section>-->
+</section>
 
 
-<section id="overview" class="py-5 in-avo-2">  
+<section id="overview" class="py-5 in-avo-2 ">  
     <div class="container">
         <div  class="row justify-content-center">
             <div class="col-md-10 col-lg-8">
                 <h5 class="main-head">PORTFOLIO HIGHLIGHTS</h5>
-                <p style="text-align: center; font-size: 16px" class="lead text-muted">
-                    We invest in sectors that provide strong long-term returns 
-                    and have the ability to transform Africa's economy. The value of our existing 
-                    portfolio as at 31 October 2025 is N16.54 trillion ($11.63 billion)
+                <p style="text-align: center; font-size: 16px" class="lead text-muted fade-in-bottom">
+                  We invest in sectors that provide strong long-term returns and have the ability to transform Africa's economy.
+                  The value of our portfolio companies as at 31 October 2025 is $1.2Million.
                 </p>
 
                 <img src="img/services/portfolio.png" style="width: 100%; height: auto" alt="investment portfolio">
                  <h5 class="main-head">Investment Philosophy</h5>
-                <p style="text-align: center; font-size: 16px" class="lead text-muted">
-                   Our approach to investment is guided by the philosophy of Africapitalism, which is the private sector’s
-                    commitment to Africa’s development through long term investments that create economic prosperity and social wealth
-                </p>
+                <p style="text-align: center; font-size: 16px" class="lead text-muted fade-in-bottom">
+                  We operates with a clear long-term vision, investing with the future in mind rather than chasing short-term gains. Our work is driven by
+                   a strong sense of purpose, ensuring that every investment delivers both financial success and meaningful social impact. We believe deeply in
+                    the power of collaboration, co-investing, and partnering with both local and global stakeholders to build sustainable value and share long-term success.
             </div>
         </div>
 
@@ -61,13 +64,13 @@
             </div>
         </div>
         
-        <p style="font-size: 16px;  text-align: center" class="lead text-muted">
-          With an installed capacity of 2,000 megawatts, we supply 13-15% 
-          of Nigeria’s national grid powering millions of homes. Our 120,000-kilometer power 
-          distribution network extends our reach to over 1.8 million customers including Nigeria’s
-           Federal Capital Territory, businesses, hospitals, and schools—empowering communities in 
-           Nigeria and beyond. As a member of the West African Power pool, we are further strengthening
-            regional energy security and economic growth as we drive the continent’s industrialisation.
+        <p style="font-size: 16px;  text-align: center" class="lead text-muted fade-in-bottom">
+         We invest in transformative power initiatives that strengthen electricity generation, 
+         modernize distribution networks, and support Africa’s shift toward cleaner, more reliable
+          energy systems. Our commitment to renewable energy, advanced grid technologies, and
+           strategic public–private collaborations ensures that communities and industries gain
+            access to stable and sustainable power.
+
         </p>
 
          <div id="technology" class="bg-block mb-4" 
@@ -79,11 +82,12 @@
                 </h1>
             </div>
         </div>
-        <p style="font-size: 16px;  text-align: center" class="lead text-muted">
-       Driving Africa’s digital transformation requires cutting-edge technology solutions and a robust payment infrastructure.
-        By equipping businesses with the tools to scale and innovate, and enabling seamless, secure, and inclusive electronic payments, 
-        the foundation for a thriving digital economy is being built. With investments in technical expertise and next-generation solutions, technology is
-         shaping a future that empowers businesses and individuals across Africa.
+        <p style="font-size: 16px;  text-align: center" class="lead text-muted fade-in-bottom">
+       We invest in technology that drives productivity, connectivity, and economic inclusion across Africa. 
+       Our focus spans groundbreaking fintech solutions, environmentally conscious cleantech 
+       innovations, intelligent real estate technologies, and advanced digital infrastructure such
+        as AI and cloud systems. Through these investments, we empower businesses and consumers to 
+        thrive in a rapidly evolving digital landscape.
         </p>
 
 
@@ -97,13 +101,19 @@
                 </h1>
             </div>
         </div>
-        <p style="font-size: 16px;  text-align: center" class="lead text-muted">
-         Our integrated energy strategy connects Africa’s rich resources to its people and economies through strategic investments in oil,
-          gas, and power generation. As operator of OML 17, Heirs Energies has doubled production to 53,000 barrels of oil and 100 MMSCFD of gas per day, 
-          showcasing operational excellence. Our gas-to-power initiatives align with Nigeria’s domestic gas policy, delivering energy solutions that power homes and businesses. 
-          Rooted in Africapitalism, we drive industrial growth, energy security, and social impact, transforming communities and shaping Africa’s future..
-        </p>
-
+        <p style="font-size: 16px;  text-align: center" class="lead text-muted fade-in-bottom">
+        hinning Holdings is advancing Africa’s energy future through investments that enhance access,
+         efficiency, and long-term energy security. Our strategy centers on integrated solutions such
+          as gas-to-power systems, modern storage technologies, downstream infrastructure development,
+         and cleaner fuel innovations — all designed to meet the continent’s rising energy demand.
+      </p>
+           <div class="row gx-0">
+							<div style="border-top: 2px solid #125a52" class="col text-center border-bottom justify-content-md-center border-bottom-md-0 border-end-md">
+								<a href="https://theplugluxx.com/" alt="_blank"><img  class="opacity-75 my-2 my-md-1" src="img/user/plugluxx.png" alt="PlugLuxx logo" width="120" height="auto"></a>
+								<br>
+                <br>
+              </div>
+						</div>
          <div id="estate" class="bg-block mb-4" 
              style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
              url('img/services/estate-image.jpg'); border-radius: 15px;">
@@ -113,21 +123,26 @@
                 </h1>
             </div>
         </div>
-        <p style="font-size: 16px; text-align: center" class="lead text-muted">
-         We stand at the intersection of infrastructure, investment, and guest experience, driving
-          economic growth and global tourism. As custodians of one of Africa’s largest land banks and 
-          property portfolios, our presence spans the 1,000-key Transcorp Hilton Abuja and prime
-           commercial and residential developments across Nigeria. With travel rebounding and 
-           lifestyle-driven spaces on the rise, the sector is evolving—embracing technology, 
-           sustainability, and unique guest experiences. With the launch of Abuja’s first-of-its-kind 
-           5,000-capacity event space, Transcorp Centre, we have again set a new benchmark in luxury, 
-           hospitality, and world-class service, reinforcing Africa’s position as a global hub for 
-           hospitality and real estate investment.
+        <p style="font-size: 16px; text-align: center" class="lead text-muted fade-in-bottom">
+        Shinning Holdings builds value in real estate and hospitality by developing modern, sustainable
+         properties while also investing in premium lifestyle experiences, travel, and luxury service 
+         platforms. From residential and commercial developments to high-end rental, concierge,
+          and experiential brands like The PlugLuxx, our combined real estate and
+         hospitality strategy enhances quality of life and elevates Africa’s premium lifestyle economy.
         </p>
-
+ 
+					
+						<div class="row gx-0">
+							<div style="border-top: 2px solid #125a52" class="col text-center border-bottom justify-content-md-center border-bottom-md-0 border-end-md">
+								<a href="https://theplugluxx.com/"  alt="_blank"><img  class="opacity-75 my-2 my-md-1" src="img/user/plugluxx.png" alt="PlugLuxx logo" width="120" height="auto"></a>
+							</div>
+              
+						</div>
+			
         <!-- Company grid goes here -->
     </div>
 </section>
+<?php require_once("call.php"); ?>
 
 
 

@@ -1,5 +1,5 @@
 <!-- section content begin -->
-	<section class="py-5 in-avo-2">  
+	<section style="margin-top:-50px;" class="py-5 in-avo-2">  
 		<div class="container">
 			<div class="row justify-content-center">
 				<div class="col-md-10 col-lg-8">

@@ -150,7 +150,7 @@ document.addEventListener("DOMContentLoaded", function() {
   const nav = document.querySelector("header.navbar");
 
   window.addEventListener("scroll", function() {
-    if (window.scrollY > 20) {
+    if (window.scrollY > 80) {
       nav.classList.add("sticky-nav", "active");
     } else {
       nav.classList.remove("sticky-nav", "active");
@@ -159,6 +159,19 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 </script>
 
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const currentHash = window.location.hash; 
+
+  document.querySelectorAll(".nav-link").forEach(link => {
+    if (link.getAttribute("href") === currentHash) {
+      link.classList.add("active");
+    } else {
+      link.classList.remove("active");
+    }
+  });
+});
+</script>
 
 </body>
 </html>

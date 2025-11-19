@@ -1,5 +1,5 @@
 <!-- header begin -->
-<header class="navbar navbar-expand-lg bg-white navbar-light  flex-nowrap shadow-sm">
+<header class="navbar navbar-expand-lg bg-white navbar-light shadow-sm">
     <div class="container">
         <a class="navbar-brand" href="index.php">
             <img src="img/user/shinninglogo.png" alt="logo" style="max-width: 180px;">
@@ -20,7 +20,7 @@
                 </li>
 
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="investments.php" id="dropdownInvestment" data-bs-toggle="dropdown" aria-expanded="false">Investment</a>
+                    <a class="nav-link dropdown-toggle" href="investments.php#overview" id="dropdownInvestment" data-bs-toggle="dropdown" aria-expanded="false">Investment</a>
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="investments.php#overview">Overview</a></li>
                         <li><a class="dropdown-item" href="investments.php#power">Power</a></li>
