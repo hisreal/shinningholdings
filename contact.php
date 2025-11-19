@@ -1,5 +1,5 @@
 <?php require_once("header.php"); ?>
-<?php require_once("page_loader.php"); ?>
+<?php //require_once("page_loader.php"); ?>
 <?php require_once("nav-bar.php");?>
 <!-- breadcrumb content begin -->
 	<section class=" hero-banner">
