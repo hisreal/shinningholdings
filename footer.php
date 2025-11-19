@@ -67,13 +67,13 @@
       <span class="me-2 text-primary">
         <i class="bi bi-chevron-right"></i>
       </span>
-      <a href="#" class="text-decoration-none text-muted">About Us</a>
+      <a href="about.php" class="text-decoration-none text-muted">About Us</a>
     </li>
     <li class="mb-2 d-flex align-items-center">
       <span class="me-2 text-primary">
         <i class="bi bi-chevron-right "></i>
       </span>
-      <a href="#" class="text-decoration-none text-muted">Investments</a>
+      <a href="investments.php#overview" class="text-decoration-none text-muted">Investments</a>
     </li>
     <li class="mb-2 d-flex align-items-center">
       <span class="me-2 text-primary">
