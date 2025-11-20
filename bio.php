@@ -19,7 +19,7 @@
 				<div class="row d-md-flex justify-content-md-center gx-lg-5">
 					<div class="col-12 col-md-8 col-lg-6 pe-lg-8">
 						<p style="text-align: center; font-size: 16px" class="lead text-muted">
-						<img src="img/user/uche3.png" style="width: 100%; padding: 20px" alt="Uche the founder">
+						<img src="img/user/IMG_1634.JPG" style="width: 100%; padding: 20px" alt="Uche the founder">
 
                             Uche Godswill Onyemachi is a dynamic Nigerian entrepreneur and investor
                              with a diverse business portfolio spanning fashion, cryptocurrency, transportation, and energy.</p>

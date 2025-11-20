@@ -35,15 +35,15 @@
 
             <!-- LEFT SIDE (Paragraphs) -->
             <div class="col-12 col-lg-6 order-2 order-lg-1 fade-in-bottom">
-              <p style="font-size: 16px; text-align: justify" class="lead text-muted">
+              <p class=" text-muted justify-fix">
     At <strong>Shining Holdings</strong>, we are committed to delivering premium rental and hospitality services through strategic partnerships and industry expertise. We collaborate with top-tier Rental Agents who prioritize client satisfaction, operational efficiency, and excellence in service delivery.
 </p>
 
-<p style="font-size: 16px; text-align: justify" class="lead text-muted">
+<p  class=" text-muted justify-fix">
     With a strong foundation in hotel management, financial analysis, and managed care, our approach ensures a seamless and personalized experience for every client. Our adaptable and precise methodology is designed to support organizational goals while enhancing customer satisfaction.
 </p>
 
-<p style="font-size: 16px; text-align: justify" class="lead text-muted">
+<p class=" text-muted justify-fix">
     We proudly serve the car rental and hospitality sectors, aligning our services with the highest standards of trust, reliability, and professionalism. At Shining Holdings, excellence isn’t just a goal — <strong>it’s our standard</strong>.
 </p>
 

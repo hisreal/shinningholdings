@@ -25272,6 +25272,13 @@ header.navbar,
   position: relative;
 }
 
+ .justify-fix {
+  text-align: justify;
+  word-spacing: -0.1px;
+  letter-spacing: 0.5px;  
+  
+  font-size: 16px;
+}
  
 /* Default navbar at the top */
 header.navbar {
