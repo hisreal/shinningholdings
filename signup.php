@@ -23,12 +23,12 @@
         <div  class="row justify-content-center">
             <div class="col-md-10 col-lg-8">
                 	<!--<h5 class="main-head"><a class="header-link" href="about.php">Learn More About Us</a></h5>-->
-				<p style="text-align: center; font-size: 16px" class="lead text-muted">Welcome to Shinning Holdings Investor Portal
+				<p style="text-align: left; font-size: 16px" class="lead text-muted fade-in-bottom">Welcome to Shinning Holdings Investor Portal
 Join a growing network of partners investing in Africa’s future.
 Please complete the form below to create your investor profile and access exclusive opportunities.
 </p>
 
-                <form class="p-4 border rounded bg-white">
+                <form class="border rounded bg-white fade-in-bottom">
 
                 <!-- 1. Full Name -->
                 <div class="mb-3">
@@ -165,7 +165,7 @@ Please complete the form below to create your investor profile and access exclus
 
                 <!-- 11. Agreements -->
                 <div class="mb-3">
-                    <div class="form-check mb-1">
+                    <div class="form-check ">
                     <input class="form-check-input" type="checkbox" required>
                     <label class="form-check-label">I agree to the Terms & Conditions</label>
                     </div>

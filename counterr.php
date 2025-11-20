@@ -43,7 +43,7 @@
             
             <div class="col-md-3 col-lg-3 mb-4">
                 <h5 class="mb-0">
-                    <span style="border-bottom: 3px solid #125a52" class="count" data-counter-end="40">40</span>+<span class="text-primary"></span>
+                    <span style="border-bottom: 3px solid #125a52" class="count" data-counter-end="10">10</span>+<span class="text-primary"></span>
                 </h5>
                 <p class="text-muted">Employees</p>
             </div>

@@ -46,7 +46,7 @@
             </ul>
 
             <div class="optional-link d-flex align-items-center ms-4 d-none d-xl-block">
-                <a href="#" class="btn btn-link link-secondary text-decoration-none">Sign in</a>
+                <a href="signup.php" class="btn btn-link link-secondary text-decoration-none">Sign in</a>
             </div>
         </div>
     </div>
