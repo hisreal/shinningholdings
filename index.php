@@ -158,14 +158,18 @@
             </div>
 
             <div class="col-md-6">
-                <img src="img/user/right.jpg" style="width: 100%; height: auto;" alt="Right image">
+					<center><h6 style="font-weight: 200">"Every team needs a leader and a vision <br>but everyone must have a voice."</h6></center>
+
+								<center><h6><span class="text-highlight">Uche Godswill Onyemachi.</span></h6></center>
+								<center><a style="font-weight: 200" href="about.php" class="btn btn-primary rounded-pill mt-2">Meet The Founder<i class="fas fa-arrow-right fa-sm ms-1"></i></a></center>
+               <!-- <img src="img/user/right.jpg" style="width: 100%; height: auto;" alt="Right image">-->
             </div>
 
         </div>
     </div>
 </section>
 
-<section style="margin-top:-100px;" class="py-5">
+<section style="margin-top:-60px;" class="py-5">
 <div class="container">
 	<div class="row justify-content-center ">
 					<div class="col-md-12 col-lg-10">
