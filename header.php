@@ -37,7 +37,22 @@ foreach ($_COOKIE as $name => $value) {
   rel="stylesheet"
   href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
 />
+	<style>
+		input.form-control,
+select.form-select,
+textarea.form-control {
+  border: 1px solid #125a52 !important;
+  box-shadow: none !important;
+}
 
+input.form-control:focus,
+select.form-select:focus,
+textarea.form-control:focus {
+  border-color: #125a52 !important;
+  box-shadow: 0 0 0 0.2rem rgba(18, 90, 82, 0.25) !important;
+}
+
+	</style>
 	<link rel="apple-touch-icon-precomposed" href="img/apple-touch-icon.png">
 	<title>Shinning Holding || Manage & grow investment assets securely</title>
 	

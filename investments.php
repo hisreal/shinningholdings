@@ -50,8 +50,7 @@
                   We operates with a clear long-term vision, investing with the future in mind rather than chasing short-term gains. Our work is driven by
                    a strong sense of purpose, ensuring that every investment delivers both financial success and meaningful social impact. We believe deeply in
                     the power of collaboration, co-investing, and partnering with both local and global stakeholders to build sustainable value and share long-term success.
-            </div>
-        </div>
+           
 
         <div id="power" class="bg-block mb-4" 
              style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 

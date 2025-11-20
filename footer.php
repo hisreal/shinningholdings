@@ -173,5 +173,44 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 </script>
 
+<script>
+  (function() {
+    const btn  = document.getElementById('phoneFlagButton');
+    const menu = document.getElementById('phoneFlagMenu');
+    const flagImg = document.getElementById('selectedFlag');
+    const codeSpan = document.getElementById('selectedCode');
+
+    // toggle menu when clicking the button
+    btn.addEventListener('click', function(e) {
+      e.preventDefault();
+      e.stopPropagation();
+      menu.classList.toggle('show');
+    });
+
+    // handle selecting an option
+    document.querySelectorAll('.country-option').forEach(function(item) {
+      item.addEventListener('click', function(e) {
+        e.preventDefault();
+        e.stopPropagation();
+
+        const code = this.getAttribute('data-code');
+        const flag = this.getAttribute('data-flag');
+
+        flagImg.src = flag;
+        codeSpan.textContent = code;
+
+        menu.classList.remove('show');
+      });
+    });
+
+    // close menu when clicking anywhere else
+    document.addEventListener('click', function() {
+      menu.classList.remove('show');
+    });
+  })();
+</script>
+
+
+
 </body>
 </html>
