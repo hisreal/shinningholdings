@@ -42,7 +42,7 @@
                 <h5 class="main-head">PORTFOLIO HIGHLIGHTS</h5>
                 <p style="text-align: center; font-size: 16px" class="lead text-muted fade-in-bottom">
                   We invest in sectors that provide strong long-term returns and have the ability to transform Africa's economy.
-                  The value of our portfolio companies as at 31 October 2025 is $1.2Million.
+                  Our portfolio continues to demonstrate solid performance and sustainable value creation.
                 </p>
 
                  <h5 class="main-head">Investment Philosophy</h5>
@@ -88,7 +88,13 @@
         as AI and cloud systems. Through these investments, we empower businesses and consumers to 
         thrive in a rapidly evolving digital landscape.
         </p>
-
+       <div class="row gx-0">
+							<div style="border-top: 2px solid #125a52" class="col text-center border-bottom justify-content-md-center border-bottom-md-0 border-end-md">
+								<a href="https://theplugluxx.com/" alt="_blank"><img  class="opacity-75 my-2 my-md-1" src="img/user/plugluxx.png" alt="PlugLuxx logo" width="120" height="auto"></a>
+								<br>
+                <br>
+              </div>
+						</div>
 
 
          <div id="energy" class="bg-block mb-4" 
@@ -101,18 +107,12 @@
             </div>
         </div>
         <p style="font-size: 16px;  text-align: center" class="lead text-muted fade-in-bottom">
-        hinning Holdings is advancing Africa’s energy future through investments that enhance access,
+        Shinning Holdings is advancing Africa’s energy future through investments that enhance access,
          efficiency, and long-term energy security. Our strategy centers on integrated solutions such
           as gas-to-power systems, modern storage technologies, downstream infrastructure development,
          and cleaner fuel innovations — all designed to meet the continent’s rising energy demand.
       </p>
-           <div class="row gx-0">
-							<div style="border-top: 2px solid #125a52" class="col text-center border-bottom justify-content-md-center border-bottom-md-0 border-end-md">
-								<a href="https://theplugluxx.com/" alt="_blank"><img  class="opacity-75 my-2 my-md-1" src="img/user/plugluxx.png" alt="PlugLuxx logo" width="120" height="auto"></a>
-								<br>
-                <br>
-              </div>
-						</div>
+          
          <div id="estate" class="bg-block mb-4" 
              style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
              url('img/services/estate-image.jpg'); border-radius: 15px;">

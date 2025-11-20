@@ -58,11 +58,21 @@
 			<div class="container">
 								<h5 class="main-head"> The Founder </h5>
 
-				<div class="row d-md-flex justify-content-md-center gx-lg-5">
+				<div class="row d-md-flex justify-content-md-center ">
 					<div class="col-12 col-md-12 col-lg-6 d-flex align-items-center">
-						<div class="col text-md-center text-lg-start">
-								<img src="img/user/about.png" style="width: 100%; height: auto" alt="Girl in a jacket">								
+						<div class="founder-card position-relative overflow-hidden">
+							<img src="img/user/about.png" class="img-fluid w-100 founder-img" alt="Founder">
+
+							<div class="founder-overlay d-flex align-items-center justify-content-center">
+								<div class="text-center">
+									<h3 class="text-white mb-1">UCHE GODSWILL ONYEMACHI</h3>
+									<p class="text-white m-0">THE FOUNDER</p>
+								</div>
+
 							</div>
+						</div>
+
+						
 					</div>
 					<div class="col-12 col-md-12 col-lg-6 pe-lg-5 d-flex align-items-center">
     <div class="w-100 ">
@@ -87,7 +97,6 @@
 			</div>
 		</div>
 		</section>
-
 
 
 <?php require_once("footer.php"); ?>

@@ -166,14 +166,6 @@ body {
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
-/* force the header to be truly fixed */
-header.navbar.fixed-top {
-    position: fixed !important;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 2000;
-}
 
 hr {
   margin: 1.75rem 0;
@@ -25272,6 +25264,13 @@ body.loaded .page-loader {
     height: 0;
   }
 }
+header.navbar,
+.navbar,
+.navbar-collapse,
+.btn-mobile-navbar {
+  z-index: 3000 !important;
+  position: relative;
+}
 
  
 /* Default navbar at the top */
@@ -25287,7 +25286,7 @@ header.navbar {
   top: 0;
   right: 0;
   left: 0;
-  z-index: 2000;
+
   transform: translateY(-100%); /* hidden above the page */
   background: #ffffff !important;  
   transition: transform 0.35s ease; /* smoother animation */
@@ -25944,6 +25943,53 @@ html {
     .mobile-small-text {
         font-size: 12px;
     }
+}
+
+/* parent */
+.founder-card {
+  position: relative;
+  cursor: pointer;
+}
+
+/* image default */
+.founder-img {
+  transition: all .4s ease;
+  filter: none;
+}
+
+/* overlay text hidden initially */
+.founder-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+  opacity: 0;
+  transition: opacity .4s ease;
+}
+
+/* hover effects */
+.founder-card:hover .founder-img {
+  filter: grayscale(100%);
+}
+
+.founder-card:hover .founder-overlay {
+  opacity: 1;
+}
+.founder-overlay h3 {
+  color: #ffffff !important; /* pure white */
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.founder-overlay p {
+  color: #ffffff !important; /* pure white */
+  font-weight: 200;
+  font-size: 14px;
+}
+/* make founder modal extra wide */
+#founderModal .modal-dialog {
+  max-width: 800px!important; /* take up most of the viewport width */
+  width: 800px  !important;
+  margin: 1.75rem auto;
 }
 
 .fade-in-bottom {

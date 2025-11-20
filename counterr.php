@@ -8,7 +8,7 @@
                 </h5>
                 <p style="text-align: center; font-size: 16px" class="lead text-muted">
                     Working to deliver long-term sustainable value whilst improving lives and transforming Africa.
-                    The value of our portfolio companies as at 31 October 2025 is $1.2Million.
+                   Our portfolio continues to demonstrate solid performance and sustainable value creation.
                 </p>
             </div>
         </div>
@@ -21,21 +21,21 @@
 
             <div class="col-md-3 col-lg-3 mb-4">
                 <h5 class="mb-0">
-                    <span class="count" data-counter-end="4">4</span><span class="text-primary"></span>
+                    <span style="border-bottom: 3px solid #125a52" class="count" data-counter-end="4">4</span><span class="text-primary"></span>
                 </h5>
                 <p class="text-muted">Sectors</p>
             </div>
 
             <div class="col-md-3 col-lg-3 mb-4">
                 <h5 class="mb-0">
-                    <span class="count" data-counter-end="1">1</span><span class="text-primary"></span>
+                    <span style="border-bottom: 3px solid #125a52" class="count" data-counter-end="1">1</span><span class="text-primary"></span>
                 </h5>
                 <p class="text-muted">Continent</p>
             </div>
 
             <div class="col-md-3 col-lg-3 mb-4">
                 <h5 class="mb-0">
-                    <span class="count" data-counter-end="2">2</span><span class="text-primary"></span>
+                    <span style="border-bottom: 3px solid #125a52" class="count" data-counter-end="2">2</span><span class="text-primary"></span>
                 </h5>
                 <p class="text-muted">Countries</p>
             </div>
@@ -43,7 +43,7 @@
             
             <div class="col-md-3 col-lg-3 mb-4">
                 <h5 class="mb-0">
-                    <span class="count" data-counter-end="40">40</span><span class="text-primary"></span>
+                    <span style="border-bottom: 3px solid #125a52" class="count" data-counter-end="40">40</span><span class="text-primary"></span>
                 </h5>
                 <p class="text-muted">Employees</p>
             </div>
