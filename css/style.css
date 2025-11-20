@@ -25272,11 +25272,12 @@ header.navbar,
   position: relative;
 }
 
- .justify-fix {
+ .justify-fix p{
   text-align: justify;
   word-spacing: -0.1px;
-  letter-spacing: 0.5px;  
-  
+  letter-spacing: 0.5px; 
+  hyphens: auto; 
+   overflow-wrap: break-word;
   font-size: 16px;
 }
  
