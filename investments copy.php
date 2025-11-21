@@ -15,8 +15,8 @@
 </section>
 
 <section style="margin-top:-50px;" class="py-5 highlights fade-in-bottom"> 
-  <ul style="text-transform: uppercase; font-weight: 100" class="nav  justify-content-center">
-    <li style="text-transform: uppercase; font-weight: 100" class="nav-item">
+  <ul style="text-transform: uppercase; font-weight: 200" class="nav  justify-content-center">
+    <li  class="nav-item">
       <a class="nav-link" href="#overview">Highlights</a>
     </li>
     <li class="nav-item">

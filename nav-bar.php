@@ -29,7 +29,12 @@
                         <li><a class="dropdown-item" href="investments.php#estate">Real Estate and Hospitality</a></li>
                     </ul>
                 </li>
-
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdownCompany" data-bs-toggle="dropdown" aria-expanded="false">Impact</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="philanthropy.php">Philanthropy</a></li>
+                    </ul>
+                </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="dropdownMedia" data-bs-toggle="dropdown" aria-expanded="false">Media</a>
                     <ul class="dropdown-menu">
@@ -37,12 +42,7 @@
                     </ul>
                 </li>
 
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="dropdownCompany" data-bs-toggle="dropdown" aria-expanded="false">Company</a>
-                    <ul class="dropdown-menu">
-                        <!-- items -->
-                    </ul>
-                </li>
+                
             </ul>
 
             <div class="optional-link d-flex align-items-center ms-4 d-none d-xl-block">
