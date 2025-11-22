@@ -7,7 +7,7 @@
 		<div class="row justify-content-center">
 			<div class="col-md-10 col-lg-8">
 				<h5 class="main-head"><a class="header-link" href="about.php">Learn More About Us</a></h5>
-				<p style="text-align: center; font-size: 16px" class="lead text-muted">shining Holdings is an emerging African investment firm 
+				<p style="text-align: center; font-size: 16px" class="lead text-muted">Shining Holdings is an emerging African investment firm 
 					committed to building sustainable value across high-growth sectors. We partner with ambitious businesses and investors to unlock 
 					opportunities that shape Africa’s future.</p>
 
