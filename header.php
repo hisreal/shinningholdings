@@ -54,6 +54,6 @@ textarea.form-control:focus {
 
 	</style>
 	<link rel="apple-touch-icon-precomposed" href="img/apple-touch-icon.png">
-	<title>Shinning Holding || Manage & grow investment assets securely</title>
+	<title>Shining Holding || Manage & grow investment assets securely</title>
 	
 </head>
