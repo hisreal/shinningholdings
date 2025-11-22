@@ -2,7 +2,7 @@
 <header class="navbar navbar-expand-lg bg-white navbar-light shadow-sm">
     <div class="container">
         <a class="navbar-brand" href="index.php">
-            <img src="img/user/shinning-logo.png" alt="logo" style="max-width: 180px;">
+            <img src="img/user/shining-logo.png" alt="logo" style="max-width: 180px;">
         </a>
 
         <div class="collapse navbar-collapse d-flex justify-content-between d-none d-xl-block" id="navbarNav">
