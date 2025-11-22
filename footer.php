@@ -7,7 +7,7 @@
       <div class="col-md-6 col-lg-5 mb-4">
         <div class="d-flex align-items-center mb-3">
           <!-- Logo -->
-          <img src="img/user/shinninglogo.png" alt="Shinning Holdings" class="me-3" style="height:50px;">
+          <img src="img/user/shinning-logo.png" alt="Shinning Holdings" class="me-3" style="height:50px;">
           <!-- Optional 15 years mark -->
           <!--<img src="img/user/shinninglogo.png" alt="15 years" style="height:50px;">-->
         </div>
