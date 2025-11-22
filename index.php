@@ -7,7 +7,7 @@
 		<div class="row justify-content-center">
 			<div class="col-md-10 col-lg-8">
 				<h5 class="main-head"><a class="header-link" href="about.php">Learn More About Us</a></h5>
-				<p style="text-align: center; font-size: 16px" class="lead text-muted">Shinning Holdings is an emerging African investment firm 
+				<p style="text-align: center; font-size: 16px" class="lead text-muted">shining Holdings is an emerging African investment firm 
 					committed to building sustainable value across high-growth sectors. We partner with ambitious businesses and investors to unlock 
 					opportunities that shape Africa’s future.</p>
 
@@ -112,7 +112,7 @@
 			<div class="col-md-10 col-lg-8">
 				<h6 class="main-head">FEATURED INVESTMENT</h6>
 					<h6 style="color:#262626; margin-top: -10px" class="main-head">The PlugLuxx</h6>
-				<p style="text-align: center; font-size: 16px" class="lead text-muted">Shinning Holdings is proud to support The PlugLuxx, a digital-first luxury marketplace focused on high-end real estate, experiential hospitality, and mobility. Through this strategic investment, 
+				<p style="text-align: center; font-size: 16px" class="lead text-muted">shining Holdings is proud to support The PlugLuxx, a digital-first luxury marketplace focused on high-end real estate, experiential hospitality, and mobility. Through this strategic investment, 
 					we tap into Africa’s premium lifestyle economy, providing access to luxury penthouses, VIP events, supercars, and bespoke experiences. The PlugLuxx embodies our commitment to innovation, upscale real estate, and scalable digital platforms — and is a core piece of our growth story.</p>
 				<center><a href="https://theplugluxx.com/" style="font-weight: 200" class="btn btn-primary rounded-pill">Learn More<i class="fas fa-arrow-right fa-sm ms-1"></i></a></center>
 

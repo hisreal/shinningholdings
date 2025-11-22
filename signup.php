@@ -23,7 +23,7 @@
         <div  class="row justify-content-center">
             <div class="col-md-10 col-lg-8">
                 	<!--<h5 class="main-head"><a class="header-link" href="about.php">Learn More About Us</a></h5>-->
-				<p style="text-align: left; font-size: 16px" class="lead text-muted fade-in-bottom">Welcome to Shinning Holdings Investor Portal
+				<p style="text-align: left; font-size: 16px" class="lead text-muted fade-in-bottom">Welcome to shining Holdings Investor Portal
 Join a growing network of partners investing in Africa’s future.
 Please complete the form below to create your investor profile and access exclusive opportunities.
 </p>
@@ -141,7 +141,7 @@ Please complete the form below to create your investor profile and access exclus
                 <!-- 8. Short Message -->
                 <div class="mb-3">
                     <label class="form-label fw-semibold">Short Message / Intent</label>
-                    <textarea class="form-control" rows="4" placeholder="Tell us briefly why you want to invest with Shinning Holdings…" required></textarea>
+                    <textarea class="form-control" rows="4" placeholder="Tell us briefly why you want to invest with shining Holdings…" required></textarea>
                 </div>
 
                 <!-- 9. Upload ID Document -->

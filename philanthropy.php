@@ -36,7 +36,7 @@
             <!-- LEFT SIDE (Paragraphs)  style="hyphens: auto;"  -->
             <div class="col-12 col-lg-6 order-2 order-lg-1 fade-in-bottom">
               <p class=" text-muted justify-fix">
-                Shinning Holdings, through the Onyemachi Foundation, dedicates itself to empowering underserved communities by focusing on education, entrepreneurship, and community development. We see these as the pillars of sustainable prosperity — the kind that builds resilience, fosters innovation, and unlocks human potential.
+                shining Holdings, through the Onyemachi Foundation, dedicates itself to empowering underserved communities by focusing on education, entrepreneurship, and community development. We see these as the pillars of sustainable prosperity — the kind that builds resilience, fosters innovation, and unlocks human potential.
 
             </p>
 
@@ -71,14 +71,14 @@
                    <h5  class="main-head">Our Approach</h5>
 
   <p class="text-muted justify-fix">
-Our philanthropic strategy is aligned with Shinning Holdings’ investment philosophy — long-term, 
+Our philanthropic strategy is aligned with shining Holdings’ investment philosophy — long-term, 
 partnership-driven, and impact-focused. We do not simply give money; we partner with like-minded
  non-profits, development institutions, local leaders, 
 and entrepreneurs to ensure every dollar invested delivers real and measurable impact        
 </p>          
 
   <p class="text-muted justify-fix">
-Our philanthropic strategy is aligned with Shinning Holdings’ investment philosophy — long-term, 
+Our philanthropic strategy is aligned with shining Holdings’ investment philosophy — long-term, 
 partnership-driven, and impact-focused. We do not simply give money; we partner with like-minded
  non-profits, development institutions, local leaders, 
 and entrepreneurs to ensure every dollar invested delivers real and measurable impact        

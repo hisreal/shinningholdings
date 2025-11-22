@@ -106,7 +106,7 @@
             </div>
         </div>
         <p style="font-size: 16px;  text-align: center" class="lead text-muted fade-in-bottom">
-        Shinning Holdings is advancing Africa’s energy future through investments that enhance access,
+        shining Holdings is advancing Africa’s energy future through investments that enhance access,
          efficiency, and long-term energy security. Our strategy centers on integrated solutions such
           as gas-to-power systems, modern storage technologies, downstream infrastructure development,
          and cleaner fuel innovations — all designed to meet the continent’s rising energy demand.
@@ -122,7 +122,7 @@
             </div>
         </div>
         <p style="font-size: 16px; text-align: center" class="lead text-muted fade-in-bottom">
-        Shinning Holdings builds value in real estate and hospitality by developing modern, sustainable
+        shining Holdings builds value in real estate and hospitality by developing modern, sustainable
          properties while also investing in premium lifestyle experiences, travel, and luxury service 
          platforms. From residential and commercial developments to high-end rental, concierge,
           and experiential brands like The PlugLuxx, our combined real estate and

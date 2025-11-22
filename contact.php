@@ -34,7 +34,7 @@
           </li>
           <li class="mb-2 d-flex">
             <span class="me-2 text-primary"><i class="bi bi-envelope-fill"></i></span>
-            <span>info@shinningholdings.com</span>
+            <span>info@shiningholdings.com</span>
           </li>
           <li class="mb-2 d-flex">
             <span class="me-2 text-primary"><i class="bi bi-geo-alt-fill"></i></span>

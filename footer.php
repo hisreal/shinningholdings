@@ -7,13 +7,13 @@
       <div class="col-md-6 col-lg-5 mb-4">
         <div class="d-flex align-items-center mb-3">
           <!-- Logo -->
-          <img src="img/user/shining-logo.png" alt="Shinning Holdings" class="me-3" style="height:50px;">
+          <img src="img/user/shining-logo.png" alt="shining Holdings" class="me-3" style="height:50px;">
           <!-- Optional 15 years mark -->
-          <!--<img src="img/user/shinninglogo.png" alt="15 years" style="height:50px;">-->
+          <!--<img src="img/user/shininglogo.png" alt="15 years" style="height:50px;">-->
         </div>
 
         <p style="font-size: 16px" class="mb-3 small text-muted">
-          Shinning Holdings is a leading family owned pan African investment group committed
+          shining Holdings is a leading family owned pan African investment group committed
           to improving lives and transforming Africa.
         </p>
 
@@ -41,7 +41,7 @@
           </li>
           <li class="mb-2 d-flex">
             <span class="me-2 text-primary"><i class="bi bi-envelope-fill"></i></span>
-            <span>info@shinningholdings.com</span>
+            <span>info@shiningholdings.com</span>
           </li>
           <li class="mb-2 d-flex">
             <span class="me-2 text-primary"><i class="bi bi-geo-alt-fill"></i></span>
@@ -112,7 +112,7 @@
 
       <!-- Left: Copyright -->
       <div style="color: white" class="col-md-4 text-center text-md-start mb-2 mb-md-0">
-        ©2025 Shinning Holdings
+        ©2025 shining Holdings
       </div>
 
       <!-- Right: Links -->
