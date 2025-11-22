@@ -36,7 +36,7 @@
             <!-- LEFT SIDE (Paragraphs)  style="hyphens: auto;"  -->
             <div class="col-12 col-lg-6 order-2 order-lg-1 fade-in-bottom">
               <p class=" text-muted justify-fix">
-                shining Holdings, through the Onyemachi Foundation, dedicates itself to empowering underserved communities by focusing on education, entrepreneurship, and community development. We see these as the pillars of sustainable prosperity — the kind that builds resilience, fosters innovation, and unlocks human potential.
+                Shining Holdings, through the Onyemachi Foundation, dedicates itself to empowering underserved communities by focusing on education, entrepreneurship, and community development. We see these as the pillars of sustainable prosperity — the kind that builds resilience, fosters innovation, and unlocks human potential.
 
             </p>
 

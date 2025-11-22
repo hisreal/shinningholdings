@@ -154,11 +154,10 @@
 <div class="row d-flex justify-content-center align-items-center">
 
             <div class="col-md-6">
-                <img src="img/user/left-image.png" style="width: 100%; height: auto; padding: 10px;" alt="Left image">
+                <img src="img/user/firstquote.png" style="width: 100%; height: auto; padding: 10px;" alt="Left image">
             </div>
 
             <div class="col-md-6">
-					<center><h6 style="font-weight: 200">"Every team needs a leader and a vision <br>but everyone must have a voice."</h6></center>
 
 								<center><h6><span class="text-highlight">Uche Godswill Onyemachi.</span></h6></center>
 								<center><a style="font-weight: 200" href="about.php" class="btn btn-primary rounded-pill mt-2">Meet The Founder<i class="fas fa-arrow-right fa-sm ms-1"></i></a></center>
