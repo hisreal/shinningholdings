@@ -13,7 +13,7 @@
         </div>
 
         <p style="font-size: 16px" class="mb-3 small text-muted">
-          shining Holdings is a leading family owned pan African investment group committed
+          Shining Holdings is a leading family owned pan African investment group committed
           to improving lives and transforming Africa.
         </p>
 
