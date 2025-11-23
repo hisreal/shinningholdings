@@ -111,8 +111,8 @@
 
       <!-- Right: Links -->
       <div style="color: white" class="col-md-8 text-center text-md-end">
-        <a href="#" class="footer-link text-white mx-2">Privacy Policy</a>
-        <a href="#" class="footer-link text-white mx-2">Terms & Conditions</a>
+        <a href="privacy.php" class="footer-link text-white mx-2">Privacy Policy</a>
+        <a href="terms.php" class="footer-link text-white mx-2">Terms & Conditions</a>
       </div>
 
     </div>
