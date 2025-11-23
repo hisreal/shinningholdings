@@ -61,7 +61,7 @@
 				<div class="row d-md-flex justify-content-md-center ">
 					<div class="col-12 col-md-12 col-lg-6 d-flex align-items-center">
 						<div class="founder-card position-relative overflow-hidden">
-							<img src="img/user/about2.png" class="img-fluid w-100 founder-img" alt="Founder">
+							<img src="img/user/about-us.png" class="img-fluid w-100 founder-img" alt="Founder">
 
 							<div class="founder-overlay d-flex align-items-center justify-content-center">
 								<div class="text-center">

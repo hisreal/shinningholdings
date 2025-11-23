@@ -154,7 +154,7 @@
 <div class="row d-flex justify-content-center align-items-center">
 
             <div class="col-md-6">
-                <img src="img/user/firstquote.png" style="width: 100%; height: auto; padding: 10px;" alt="Left image">
+                <img src="img/user/firstquotes.png" style="width: 100%; height: auto; padding: 10px;" alt="Left image">
             </div>
 
             <div class="col-md-6">
