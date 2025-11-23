@@ -1,7 +1,8 @@
 <?php require_once("header.php"); ?>
 <?php //require_once("page_loader.php"); ?>
 <?php require_once("nav-bar.php");?>
-<section class=" hero-banner">
+<section style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+             url('img/banner/gallery.png');"  class="hero-banner">
   <div class="container">
     <div class="row ">
       <div class="hero-content col-md-10 col-lg-8">
@@ -14,66 +15,61 @@
   </div>
 </section>
 
-<section class="py-5 mt-n5 mb-3">
+<section class="py-5 mb-3">
 			<div class="container">
 				<h2 class="d-none">avo gallery</h2>
-				<div class="row row-cols-md-2 row-cols-lg-3 g-2 masonry-wrapper bigger-picture">
-					<div class="col masonry-item">
+                <div class="masonry-wrapper bigger-picture">
+					<div class=" masonry-item">
 						<div class="card border-0">
-							<a href="img/blockit/in-gallery-image-1.jpg" data-img="img/blockit/in-gallery-image-1.jpg" data-thumb="img/blockit/in-gallery-image-1.jpg" data-alt="Gallery" data-width="600" data-height="522">
-								<img src="img/blockit/in-gallery-image-1.jpg" class="img-fluid rounded-1" alt="gallery-image">
+							<a href="img/gallery/7.png" data-lightbox="img/gallery/7.png" data-thumb="img/gallery/7.png" data-alt="Gallery" data-width="600" data-height="236">
+								<img src="img/gallery/7.png" class="img-fluid rounded-1" alt="gallery-image">
 								<div class="card-img-overlay d-flex justify-content-center align-items-end p-2">
-									<span class="badge rounded-pill bg-white text-body px-1">Office atmosphere</span>
 								</div>
 							</a>
 						</div>
 					</div>
-					<div class="col masonry-item">
+					<div class=" masonry-item">
 						<div class="card border-0">
-							<a href="img/blockit/in-gallery-image-2.jpg" data-img="img/blockit/in-gallery-image-2.jpg" data-thumb="img/blockit/in-gallery-image-2.jpg" data-alt="Gallery" data-width="600" data-height="378">
-								<img src="img/blockit/in-gallery-image-2.jpg" class="img-fluid rounded-1" alt="gallery-image">
+							<a href="img/gallery/5.png" data-lightbox="img/gallery/5.png" data-thumb="img/gallery/5.png" data-alt="Gallery" data-width="600" data-height="236">
+								<img src="img/gallery/5.png" class="img-fluid rounded-1" alt="gallery-image">
 								<div class="card-img-overlay d-flex justify-content-center align-items-end p-2">
-									<span class="badge rounded-pill bg-white text-body px-1">Get the latest news</span>
 								</div>
 							</a>
 						</div>
 					</div>
-					<div class="col masonry-item">
+					<div class=" masonry-item">
 						<div class="card border-0">
-							<a href="img/blockit/in-gallery-image-3.jpg" data-img="img/blockit/in-gallery-image-3.jpg" data-thumb="img/blockit/in-gallery-image-3.jpg" data-alt="Gallery" data-width="600" data-height="236">
-								<img src="img/blockit/in-gallery-image-3.jpg" class="img-fluid rounded-1" alt="gallery-image">
+							<a href="img/gallery/1.png" data-lightbox="img/gallery/1.png" data-thumb="img/gallery/1.png" data-alt="Gallery" data-width="600" data-height="236">
+								<img src="img/gallery/1.png" class="img-fluid rounded-1" alt="gallery-image">
 								<div class="card-img-overlay d-flex justify-content-center align-items-end p-2">
-									<span class="badge rounded-pill bg-white text-body px-1">Trading simulation</span>
 								</div>
 							</a>
 						</div>
 					</div>
-					<div class="col masonry-item">
+					<div class=" masonry-item">
 						<div class="card border-0">
-							<a href="img/blockit/in-gallery-image-6.jpg" data-img="img/blockit/in-gallery-image-6.jpg" data-thumb="img/blockit/in-gallery-image-6.jpg" data-alt="Gallery" data-width="600" data-height="522">
-								<img src="img/blockit/in-gallery-image-6.jpg" class="img-fluid rounded-1" alt="gallery-image">
+							<a href="img/gallery/2.png" data-lightbox="img/gallery/2.png" data-thumb="img/gallery/2.png" data-alt="Gallery" data-width="600" data-height="236">
+								<img src="img/gallery/2.png" class="img-fluid rounded-1" alt="gallery-image">
 								<div class="card-img-overlay d-flex justify-content-center align-items-end p-2">
-									<span class="badge rounded-pill bg-white text-body px-1">Share with others</span>
 								</div>
 							</a>
 						</div>
 					</div>
-					<div class="col masonry-item">
+
+					<div class=" masonry-item">
 						<div class="card border-0">
-							<a href="img/blockit/in-gallery-image-5.jpg" data-img="img/blockit/in-gallery-image-5.jpg" data-thumb="img/blockit/in-gallery-image-5.jpg" data-alt="Gallery" data-width="600" data-height="378">
-								<img src="img/blockit/in-gallery-image-5.jpg" class="img-fluid rounded-1" alt="gallery-image">
+							<a href="img/gallery/3.png" data-lightbox="img/gallery/3.png" data-thumb="img/gallery/3.png" data-alt="Gallery" data-width="600" data-height="236">
+								<img src="img/gallery/3.png" class="img-fluid rounded-1" alt="gallery-image">
 								<div class="card-img-overlay d-flex justify-content-center align-items-end p-2">
-									<span class="badge rounded-pill bg-white text-body px-1">Make a trading plan</span>
 								</div>
 							</a>
 						</div>
 					</div>
-					<div class="col masonry-item d-md-none d-lg-block">
+					<div class=" masonry-item">
 						<div class="card border-0">
-							<a href="img/blockit/in-gallery-image-4.jpg" data-img="img/blockit/in-gallery-image-4.jpg" data-thumb="img/blockit/in-gallery-image-4.jpg" data-alt="Gallery" data-width="600" data-height="236">
-								<img src="img/blockit/in-gallery-image-4.jpg" class="img-fluid rounded-1" alt="gallery-image">
+							<a href="img/gallery/4.png" data-lightbox="img/gallery/4.png" data-thumb="img/gallery/4.png" data-alt="Gallery" data-width="600" data-height="236">
+								<img src="img/gallery/4.png" class="img-fluid rounded-1" alt="gallery-image">
 								<div class="card-img-overlay d-flex justify-content-center align-items-end p-2">
-									<span class="badge rounded-pill bg-white text-body px-1">Market analysis</span>
 								</div>
 							</a>
 						</div>

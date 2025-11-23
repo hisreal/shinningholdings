@@ -25807,7 +25807,7 @@ header.navbar {
   @media (max-width: 768px) {
             .bg-block {
                  height: 250px;
-                 text-align: left;
+                 text-align: center;
                
             }
         }
@@ -25823,8 +25823,7 @@ header.navbar {
 }
 
 
-    .hero-banner {
-      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/banner/city-view.jpg');
+    .hero-banner{
       background-size: cover;
       width: 100%;
       background-position: center;
@@ -26020,7 +26019,6 @@ html {
 
 .in-avo-2 .active-col {
 background: linear-gradient(148deg, rgb(18, 90, 82) 0%, rgba(18, 90, 82, 0.5) 86%);
-  background: background: linear-gradient(148deg, rgb(18, 90, 82) 0%, rgba(18, 90, 82, 0.5) 86%);
   color: #fff;
   border-radius: 10px;
   padding-top: 35px;
@@ -26827,18 +26825,6 @@ background: linear-gradient(148deg, rgb(18, 90, 82) 0%, rgba(18, 90, 82, 0.5) 86
   z-index: 1;
 }
 
-  .policy-heading {
-      color: #125a52;
-      font-weight: bold;
-      margin-top: 2rem;
-      margin-bottom: 1rem;
-      text-transform: uppercase;
-    }
-    .policy-content {
-      text-align: left;
-      margin-bottom: 1rem;
-    }
-
 .phone-flag-menu {
   position: absolute;
   top: 100%;
@@ -26892,22 +26878,260 @@ form .form-check-input:focus {
   background-color: #125a52 !important;
   border-color: #125a52 !important;
 }
-/* Custom page indicator */
-.current-page {
-    color: #125a52 !important;
-    font-weight: 700 !important;
-    border-bottom: 3px solid #125a52;
+
+.policy-heading {
+      color: #125a52;
+      font-weight: bold;
+      text-transform: uppercase;
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+    }
+    .policy-content {
+      text-align: justify;
+      margin-bottom: 1rem;
+    }
+
+    /* Fix card layout + spacing */
+.masonry-wrapper .card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 12px;
 }
 
-/* Dropdown parent highlight */
-.current-page.dropdown-toggle {
-    color: #125a52 !important;
-    font-weight: 700 !important;
+/* Ensure all images behave correctly on all screen sizes */
+.masonry-wrapper img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+    border-radius: 10px;
 }
 
-/* Dropdown child highlight */
-.dropdown-menu .current-page {
-    color: #125a52 !important;
-    font-weight: 700 !important;
-    background-color: rgba(18, 90, 82, 0.05) !important;
+/* Fix overlay text readability */
+.masonry-wrapper .card-img-overlay {
+    background: linear-gradient(to top, rgba(0,0,0,0.45), rgba(0,0,0,0));
+    border-radius: 10px;
+}
+
+/* Fix spacing and stacking on mobile */
+@media (max-width: 767px) {
+
+    .masonry-wrapper {
+        display: block !important;   /* Prevent hidden overflow */
+    }
+
+    .masonry-wrapper .col {
+        padding: 6px 0;              /* More comfortable spacing */
+    }
+
+    .masonry-wrapper img {
+        border-radius: 12px;
+    }
+
+    .masonry-wrapper .card-img-overlay span {
+        font-size: 0.85rem;
+        padding: 4px 8px;
+    }
+}
+
+@media (max-width: 767px) {
+    .masonry-wrapper img {
+        height: 220px !important;
+        object-fit: cover;
+    }
+}
+
+/* -----------------------------------
+   PINTEREST-STYLE MASONRY GRID
+----------------------------------- */
+.masonry-wrapper {
+    column-count: 3;
+    column-gap: 15px;
+}
+
+@media (max-width: 991px) {
+    .masonry-wrapper {
+        column-count: 2;
+    }
+}
+
+@media (max-width: 575px) {
+    .masonry-wrapper {
+        column-count: 2;
+        column-gap: 10px;
+    }
+}
+
+.masonry-item {
+    break-inside: avoid;
+    margin-bottom: 15px;
+}
+
+/* -----------------------------------
+   CARD + IMAGE SETTINGS
+----------------------------------- */
+.masonry-item .card {
+    overflow: hidden;
+    border-radius: 12px;
+    transform: translateY(20px);
+    opacity: 0;
+    animation: fadeUp 0.6s ease forwards;
+}
+
+@keyframes fadeUp {
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* Hover Zoom Effect */
+.masonry-item img {
+    transition: transform 0.5s ease;
+}
+
+.masonry-item:hover img {
+    transform: scale(1.07);
+}
+
+/* Badge overlay improvement */
+.card-img-overlay {
+    background: linear-gradient(to top, rgba(0,0,0,0.45), rgba(0,0,0,0));
+    border-radius: 12px;
+}
+
+/* -----------------------------------
+   MOBILE FIX
+----------------------------------- */
+@media (max-width: 575px) {
+    .masonry-item {
+        margin-bottom: 12px;
+    }
+
+    .card-img-overlay span {
+        font-size: 13px;
+        padding: 4px 8px;
+    }
+}
+/* ---------------------------
+   FULLSCREEN IMAGE MODAL
+--------------------------- */
+.custom-modal {
+    display: none;
+    position: fixed;
+    z-index: 999999;
+    padding-top: 40px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.92);
+    overflow: auto;
+}
+
+.custom-modal img {
+    margin: auto;
+    display: block;
+    max-width: 90%;
+    max-height: 85vh;
+    animation: zoomIn 0.4s ease;
+}
+
+@keyframes zoomIn {
+    from { transform: scale(0.6); opacity: 0; }
+    to   { transform: scale(1); opacity: 1; }
+}
+
+.close-modal {
+    color: #fff;
+    font-size: 38px;
+    position: absolute;
+    top: 15px;
+    right: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close-modal:hover {
+    color: #ccc;
+}
+
+#modalCaption {
+    text-align: center;
+    margin-top: 10px;
+    color: #fff;
+    font-size: 18px;
+}
+
+/* Pinterest Masonry Grid */
+.masonry-wrapper {
+  column-count: 3;
+  column-gap: 15px;
+}
+
+.masonry-item {
+  break-inside: avoid;
+  margin-bottom: 15px;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeUp 0.6s ease forwards;
+}
+
+@keyframes fadeUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Mobile: 2 columns */
+@media (max-width: 767px) {
+  .masonry-wrapper {
+    column-count: 2;
+  }
+}
+
+/* Hover zoom */
+.masonry-item img {
+  transition: transform 0.4s ease;
+}
+
+.masonry-item:hover img {
+  transform: scale(1.06);
+}
+
+/* Card overlay badge improvement */
+.card-img-overlay {
+  background: linear-gradient(to top, rgba(0,0,0,0.3), transparent);
+}
+/* Desktop custom scrollbar */
+@media (min-width: 992px) {
+
+    /* Enable scrolling in case overflow was blocked */
+    html, body {
+        overflow-y: auto !important;
+    }
+
+    /* Scrollbar width */
+    ::-webkit-scrollbar {
+        width: 10px;
+    }
+
+    /* Scrollbar track */
+    ::-webkit-scrollbar-track {
+        background: #f1f1f1;
+    }
+
+    /* Scrollbar handle */
+    ::-webkit-scrollbar-thumb {
+        background: #125A52;
+        border-radius: 10px;
+        transition: background 0.3s;
+    }
+
+    /* Scrollbar handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+        background: #0e4741;
+    }
 }

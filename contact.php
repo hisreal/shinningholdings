@@ -2,7 +2,8 @@
 <?php //require_once("page_loader.php"); ?>
 <?php require_once("nav-bar.php");?>
 <!-- breadcrumb content begin -->
-	<section class=" hero-banner">
+	<section style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+             url('img/banner/contact.png');" class=" hero-banner">
   <div class="container">
     <div class="row ">
       <div class="hero-content col-md-10 col-lg-8">
@@ -47,10 +48,9 @@
         <div style="margin-bottom: 20px" class="d-flex gap-3 mt-3">
           <a href="#" class="text-secondary"><i class="bi bi-facebook"></i></a>
           <a href="#" class="text-secondary"><i class="bi bi-instagram"></i></a>
-          <a href="#" class="text-secondary"><i class="bi bi-x"></i></a>
+          <a href="#" class="text-secondary"><i class="fa-brands fa-x-twitter"></i></a>
           <a href="#" class="text-secondary"><i class="bi bi-linkedin"></i></a>
-          <a href="#" class="text-secondary"><i class="bi bi-globe"></i></a>
-          <a href="#" class="text-secondary"><i class="bi bi-youtube"></i></a>
+        
       </div>
                    
                 </div>

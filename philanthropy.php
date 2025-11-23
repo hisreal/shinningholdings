@@ -3,7 +3,8 @@
 <?php require_once("nav-bar.php");?>
 
 <!-- HERO SECTION -->
-<section class="hero-banner">
+<section  style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+             url('img/banner/phi.png');"  class="hero-banner">
   <div class="container">
     <div class="row">
       <div class="hero-content col-md-10 col-lg-8">
