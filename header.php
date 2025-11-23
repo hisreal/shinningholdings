@@ -52,6 +52,7 @@ textarea.form-control:focus {
   box-shadow: 0 0 0 0.2rem rgba(18, 90, 82, 0.25) !important;
 }
 
+
 	</style>
 	<link rel="apple-touch-icon-precomposed" href="img/apple-touch-icon.png">
 	<title>Shining Holding || Manage & grow investment assets securely</title>

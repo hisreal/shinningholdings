@@ -21,7 +21,6 @@
         <div  class="row justify-content-center">
             <div class="col-md-10 col-lg-8">
                   <h5 class="main-head">Shining Holdings Privacy Policy</h5>
-                      <p class="policy-content"><strong>Last Updated:</strong> November 2025</p>
 
                       <p class="policy-heading">Introduction</p>
                       <p class="policy-content">
@@ -122,7 +121,8 @@
                       <p class="policy-content">
                         For any questions about this Privacy Policy or our handling of your personal data, contact our Data Protection Representative at <strong>privacy@shiningholdings.com</strong>.
                       </p>
-              
+                    <p class="policy-content"><strong>Last Updated:</strong> November 2025</p>
+
 						</div>
            </div>
         <!-- Company grid goes here -->
