@@ -47,9 +47,7 @@
                 
             </ul>
 
-            <div class="optional-link d-flex align-items-center ms-4 d-none d-xl-block">
-                <a href="signup.php" class="btn btn-link link-secondary text-decoration-none">Sign up</a>
-            </div>
+            
         </div>
     </div>
 </header>
