@@ -159,7 +159,7 @@
 
             <div class="col-md-6">
 
-								<center><a style="font-weight: 200" href="about.php" class="btn btn-primary rounded-pill mt-2">Meet The Founder<i class="fas fa-arrow-right fa-sm ms-1"></i></a></center>
+								<center><a style="font-weight: 200" href="bio.php" class="btn btn-primary rounded-pill mt-2">Meet The Founder<i class="fas fa-arrow-right fa-sm ms-1"></i></a></center>
                <!-- <img src="img/user/right.jpg" style="width: 100%; height: auto;" alt="Right image">-->
             </div>
 
