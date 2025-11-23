@@ -43,11 +43,15 @@
                         <li><a class="dropdown-item" href="#">Gallery</a></li>
                     </ul>
                 </li>
-
+                  <li class="nav-item">
+                    <a class="nav-link" href="signup.php">Sign up</a>
+                </li>
                 
             </ul>
 
-            
+            <div class="optional-link d-flex align-items-center ms-4 d-none d-xl-block">
+                <a href="signup.php" class="btn btn-link link-secondary text-decoration-none">Sign up</a>
+            </div>
         </div>
     </div>
 </header>
