@@ -37,8 +37,8 @@
              style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
              url('https://resiliencei.com/wp-content/uploads/2025/01/645e73c38da1ca0f8cca5816_plants-growing-1200x600.jpg'); border-radius: 15px;">
             <div class="bg-overlay-text">
-               <h1 style="font-weight: 200; font-weight: 16px;">
-                 Environmental<br> Stewardship
+               <h1 style="text-align: left" class="fw-bold display-4 mb-3">
+                 Environmental Stewardship
                 </h1>
             </div>
         </div>
@@ -54,8 +54,8 @@
              style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
              url('https://aisnet.org/resource/resmgr/insider/insider_2018/inclusion.jpg'); border-radius: 15px;">
             <div class="bg-overlay-text">
-               <h1 style="font-weight: 200; font-weight: 16px;">
-                 Social<br> Inclusion
+               <h1 style="text-align: left" class="fw-bold display-4 mb-3">
+                 Social Inclusion
                 </h1>
             </div>
         </div>
@@ -71,8 +71,8 @@
              style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
              url('https://academyflex.com/wp-content/uploads/2024/05/financial_accounting_ethics_standards.jpg'); border-radius: 15px;">
             <div class="bg-overlay-text">
-               <h1 style="font-weight: 200; font-weight: 16px;">
-                 Governance <br> & Ethics
+               <h1 style="text-align: left" class="fw-bold display-4 mb-3">
+                 Governance & Ethics
 
                 </h1>
             </div>

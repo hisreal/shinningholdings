@@ -40,8 +40,7 @@
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="dropdownMedia" data-bs-toggle="dropdown" aria-expanded="false">Media</a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="">Gallery</a></li>
-                        <li><a class="dropdown-item" href="">News</a></li>
+                        <li><a class="dropdown-item" href="#">Gallery</a></li>
                     </ul>
                 </li>
 
@@ -49,7 +48,7 @@
             </ul>
 
             <div class="optional-link d-flex align-items-center ms-4 d-none d-xl-block">
-                <a href="signup.php" class="btn btn-link link-secondary text-decoration-none">Sign in</a>
+                <a href="signup.php" class="btn btn-link link-secondary text-decoration-none">Sign up</a>
             </div>
         </div>
     </div>

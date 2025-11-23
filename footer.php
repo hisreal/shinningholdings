@@ -21,10 +21,9 @@
         <div class="d-flex gap-3 mt-3">
           <a href="#" class="icon-circle"><i class="bi bi-facebook"></i></a>
           <a href="#" class="icon-circle"><i class="bi bi-instagram"></i></a>
-          <a href="#" class="icon-circle"><i class="bi bi-x"></i></a>
+          <a href="#" class="icon-circle"><i class="fa-brands fa-x-twitter"></i></a>
           <a href="#" class="icon-circle"><i class="bi bi-linkedin"></i></a>
-          <a href="#" class="icon-circle"><i class="bi bi-globe"></i></a>
-          <a href="#" class="icon-circle"><i class="bi bi-youtube"></i></a>
+         
       </div>
 
       </div>
@@ -135,6 +134,8 @@
 <script src="js/vendors/apexcharts.min.js"></script>
 <script src="js/utilities.min.js"></script>
 <script src="js/config-theme.js"></script>
+<script src="js/vendors/countrycode.js"></script>
+
 <script>
   // Stop template sticky menu completely
   const oldSticky = window.StickyMenu;

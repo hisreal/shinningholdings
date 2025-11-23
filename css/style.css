@@ -26827,38 +26827,34 @@ background: linear-gradient(148deg, rgb(18, 90, 82) 0%, rgba(18, 90, 82, 0.5) 86
   z-index: 1;
 }
 
-.phone-flag-btn {
-  height: 100%;
-}
-
-/* menu box */
 .phone-flag-menu {
   position: absolute;
   top: 100%;
   left: 0;
-  min-width: 180px;
-  background: #ffffff;
-  border: 1px solid #dee2e6;
-  border-radius: 0.25rem;
-  padding: 0.25rem 0;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  width: 240px;
+  background: #fff;
+  border: 1px solid #ddd;
   display: none;
-  z-index: 5000;
+  max-height: 260px;
+  overflow-y: auto;
+  z-index: 1000;
+  border-radius: 6px;
 }
 
 .phone-flag-menu.show {
   display: block;
 }
 
-.phone-flag-menu .dropdown-item {
+.phone-flag-menu button {
   width: 100%;
-  border: none;
-  background: transparent;
   text-align: left;
+  padding: 8px 12px;
+  border: none;
+  background: white;
 }
 
-.phone-flag-menu .dropdown-item:hover {
-  background: #f8f9fa;
+.phone-flag-menu button:hover {
+  background: #f2f2f2;
 }
 
 /* FORCE border color on all form controls */
