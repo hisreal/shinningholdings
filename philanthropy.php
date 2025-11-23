@@ -1,125 +1,122 @@
 <?php require_once("header.php"); ?>
 <?php //require_once("page_loader.php"); ?>
 <?php require_once("nav-bar.php");?>
-<section class=" hero-banner">
+
+<!-- HERO SECTION -->
+<section class="hero-banner">
   <div class="container">
-    <div class="row ">
+    <div class="row">
       <div class="hero-content col-md-10 col-lg-8">
-        <h1 class="fw-bold display-4 mb-3">
-         Philanthropy
-        </h1>
-        
+        <h1 class="fw-bold display-4 mb-3">Philanthropy</h1>
       </div>
     </div>
   </div>
 </section>
-<!-- section content begin -->
-		<section class="py-5">
-    <div class="container">
-        <div class="row align-items-center">
 
-            <!-- RIGHT SIDE (Heading) will show FIRST on mobile -->
-           <div class="col-12 col-lg-6 order-1 order-lg-2 
-            d-flex justify-content-center align-items-center 
-            text-start mb-4 mb-lg-0">
 
-    <h2 class="text-primary 
-               fs-5 fs-sm-4 fs-md-3 fs-lg-2 fade-in-bottom" 
-        style="line-height: 1.3; font-weight: 200">
+<!-- SECTION 1 -->
+<section class="py-5">
+  <div class="container">
+    <div class="row align-items-center">
 
-      We are committed to empowering 
-        <span class="d-none d-lg-inline"><br></span>
-       African entrepreneurs.
-    </h2>
-</div>
+      <!-- RIGHT SIDE (Heading) -->
+      <div class="col-12 col-lg-6 order-1 order-lg-2 
+                  d-flex justify-content-center align-items-center
+                  text-start mb-4 mb-lg-0">
 
-            <!-- LEFT SIDE (Paragraphs)  style="hyphens: auto;"  -->
-            <div class="col-12 col-lg-6 order-2 order-lg-1 fade-in-bottom">
-              <p class=" text-muted justify-fix">
-                Shining Holdings, through the Onyemachi Foundation, dedicates itself to empowering underserved communities by focusing on education, entrepreneurship, and community development. We see these as the pillars of sustainable prosperity — the kind that builds resilience, fosters innovation, and unlocks human potential.
+        <h2 class="text-primary 
+                   fs-5 fs-sm-4 fs-md-3 fs-lg-2 fade-in-bottom" 
+            style="line-height: 1.3; font-weight: 200">
 
-            </p>
+          We are committed to empowering 
+          <span class="d-none d-lg-inline"><br></span>
+          African entrepreneurs.
+        </h2>
+      </div>
 
-        <p class=" text-muted justify-fix">
-          We aim to create opportunities for young people across Africa by supporting educational programs, mentorship, and skills training. We believe investing in human capital creates exponential returns: individuals empowered today become the leaders, innovators, and job creators of tomorrow.
-        </p>
+      <!-- LEFT SIDE (Paragraphs) -->
+      <div class="col-12 col-lg-6 order-2 order-lg-1 fade-in-bottom">
 
-        <p class=" text-muted justify-fix">
-          We aim to create opportunities for young people across Africa by supporting educational programs, mentorship, and skills training. We believe investing in human capital creates exponential returns: individuals empowered today become the leaders, innovators, and job creators of tomorrow.
-        </p>
         <p class="text-muted justify-fix">
-          We are also passionate about community-driven development. Across our focus geographies — starting with South Africa and Nigeria — we will invest in projects that restore dignity, improve infrastructure, and promote well-being: clean water initiatives, health access, local enterprise, and sustainable livelihoods.
+          Shining Holdings, through the Onyemachi Foundation, dedicates itself to empowering underserved communities by focusing on education, entrepreneurship, and community development. We see these as the pillars of sustainable prosperity.
         </p>
 
         <p class="text-muted justify-fix">
-          To learn more about Onyemachi Foundation, visit;
+          We aim to create opportunities for young people across Africa by supporting educational programs, mentorship, and skills training. We believe investing in human capital creates exponential returns.
         </p>
-          <a  class="header-link justify-fix"   href=""><h5 style="float: left; font-size: 12px"class="main-head">www.onyemachifoundation.com</h5></a>
 
-            </div>
+        <p class="text-muted justify-fix">
+          We aim to create opportunities for young people across Africa by supporting educational programs, mentorship, and skills training. Individuals empowered today become the innovators of tomorrow.
+        </p>
 
-        </div>
+        <p class="text-muted justify-fix">
+          We are also passionate about community-driven development. Across our focus geographies—South Africa and Nigeria—we invest in clean water, health access, local enterprise, and sustainable livelihoods.
+        </p>
+
+        <p class="text-muted justify-fix">To learn more about Onyemachi Foundation, visit:</p>
+
+        <a class="header-link" href="">
+          <h5 class="main-head" style="float:left; font-size:12px;">
+            www.onyemachifoundation.com
+          </h5>
+        </a>
+
+      </div>
+
     </div>
+  </div>
 </section>
 
 
-		<section style="margin-top:-100px;" class="py-5">
-    <div class="container">
-<div class="row  justify-content-center ">
+<!-- SECTION 2 -->
+<section class="py-5" style="margin-top:-100px;">
+  <div class="container">
 
-            <div class="col-md-6">
-                   <h5  class="main-head">Our Approach</h5>
+    <div class="row justify-content-center">
 
-  <p class="text-muted justify-fix">
-Our philanthropic strategy is aligned with shining Holdings’ investment philosophy — long-term, 
-partnership-driven, and impact-focused. We do not simply give money; we partner with like-minded
- non-profits, development institutions, local leaders, 
-and entrepreneurs to ensure every dollar invested delivers real and measurable impact        
-</p>          
+      <div class="col-md-6">
+        <h5 class="main-head">Our Approach</h5>
 
-  <p class="text-muted justify-fix">
-Our philanthropic strategy is aligned with shining Holdings’ investment philosophy — long-term, 
-partnership-driven, and impact-focused. We do not simply give money; we partner with like-minded
- non-profits, development institutions, local leaders, 
-and entrepreneurs to ensure every dollar invested delivers real and measurable impact        
-</p>       
-<p class="text-muted justify-fix">
-We adopt a disciplined approach: rigorous grant-making, transparent monitoring and evaluation, and a commitment to sustainability. The Onyemachi Foundation’s work will be grounded in data, accountability, and a commitment to scaling success.
-</p>
- <p class="text-muted justify-fix">
-          To learn more about Onyemachi Foundation, visit;
+        <p class="text-muted justify-fix">
+          Our philanthropic strategy is aligned with Shining Holdings’ investment philosophy—long-term, partnership-driven, and impact-focused.
         </p>
-   <a  class="header-link justify-fix"   href=""><h5 style="float: left; font-size: 12px" class="main-head">www.onyemachifoundation.com</h5></a>
 
-
-</div>
-
-            <div class="col-md-6">
-                   <h5  class="main-head align-items-center">Our core areas of philanthropic engagement include:</h5>
-
-  <p class="text-muted justify-fix">
-<span style="font-weight: 900" >1. Education & Youth:</span> Scholarships, vocational training, mentorship, and digital literacy.
-        
-</p>          
- <p class="text-muted justify-fix">
-<span style="font-weight: 900" >2. Entrepreneurship:</span> Startup grants, business training, incubation, and network access.
-</p>
-
- <p class="text-muted justify-fix">
-<span style="font-weight: 900" >3. Community Development:</span> Support for health, infrastructure, and sustainable livelihoods.
-</p>
-
- <p class="text-muted justify-fix">
-          To learn more about Onyemachi Foundation, visit;
+        <p class="text-muted justify-fix">
+          We partner with NGOs, institutions, local leaders, and entrepreneurs to ensure every dollar delivers measurable impact.
         </p>
-   <a  class="header-link justify-fix"   href=""><h5 style="float: left; font-size: 12px" class="main-head">www.onyemachifoundation.com</h5></a>
 
+        <p class="text-muted justify-fix">
+          We adopt a disciplined approach: rigorous grant-making, transparent monitoring, and a commitment to sustainability.
+        </p>
+      </div>
 
-</div>
+      <div class="col-md-6">
+        <h5 class="main-head">Our core areas of philanthropic engagement include:</h5>
 
-        </div>
+        <p class="text-muted justify-fix">
+          <strong>1. Education & Youth:</strong> Scholarships, vocational training, mentorship, digital literacy.
+        </p>
+
+        <p class="text-muted justify-fix">
+          <strong>2. Entrepreneurship:</strong> Startup grants, business training, incubation, network access.
+        </p>
+
+        <p class="text-muted justify-fix">
+          <strong>3. Community Development:</strong> Health support, infrastructure, sustainable livelihoods.
+        </p>
+
+        <p class="text-muted justify-fix">To learn more about Onyemachi Foundation, visit:</p>
+
+        <a class="header-link" href="">
+          <h5 class="main-head" style="float:left; font-size:12px;">
+            www.onyemachifoundation.com
+          </h5>
+        </a>
+      </div>
+
     </div>
-</section>
 
+  </div>
+</section>
 
 <?php require_once("footer.php"); ?>
