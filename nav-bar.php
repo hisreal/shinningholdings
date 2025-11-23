@@ -40,7 +40,8 @@
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="dropdownMedia" data-bs-toggle="dropdown" aria-expanded="false">Media</a>
                     <ul class="dropdown-menu">
-                        <!-- items -->
+                        <li><a class="dropdown-item" href="">Gallery</a></li>
+                        <li><a class="dropdown-item" href="">News</a></li>
                     </ul>
                 </li>
 

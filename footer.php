@@ -79,7 +79,7 @@
       <span class="me-2 text-primary">
         <i class="bi bi-chevron-right"></i>
       </span>
-      <a href="#" class="text-decoration-none text-muted">Philanthropy</a>
+      <a href="philanthropy.php" class="text-decoration-none text-muted">Philanthropy</a>
     </li>
     <li class="mb-2 d-flex align-items-center">
       <span class="me-2 text-primary">
@@ -87,17 +87,12 @@
       </span>
       <a href="#" class="text-decoration-none text-muted">Media</a>
     </li>
+   
     <li class="mb-2 d-flex align-items-center">
       <span class="me-2 text-primary">
         <i class="bi bi-chevron-right"></i>
       </span>
-      <a href="#" class="text-decoration-none text-muted">Careers</a>
-    </li>
-    <li class="mb-2 d-flex align-items-center">
-      <span class="me-2 text-primary">
-        <i class="bi bi-chevron-right"></i>
-      </span>
-      <a href="#" class="text-decoration-none text-muted">Contact</a>
+      <a href="contact.php" class="text-decoration-none text-muted">Contact</a>
     </li>
   </ul>
 </div>
@@ -112,7 +107,7 @@
 
       <!-- Left: Copyright -->
       <div style="color: white" class="col-md-4 text-center text-md-start mb-2 mb-md-0">
-        ©2025 shining Holdings
+        ©2025 Shining Holdings
       </div>
 
       <!-- Right: Links -->
@@ -174,40 +169,26 @@ document.addEventListener("DOMContentLoaded", function () {
 </script>
 
 <script>
-  (function() {
-    const btn  = document.getElementById('phoneFlagButton');
-    const menu = document.getElementById('phoneFlagMenu');
-    const flagImg = document.getElementById('selectedFlag');
-    const codeSpan = document.getElementById('selectedCode');
+document.getElementById("phoneCodeButton").addEventListener("click", function() {
+    document.getElementById("phoneCodeMenu").style.display =
+        document.getElementById("phoneCodeMenu").style.display === "block" ? "none" : "block";
+});
 
-    // toggle menu when clicking the button
-    btn.addEventListener('click', function(e) {
-      e.preventDefault();
-      e.stopPropagation();
-      menu.classList.toggle('show');
+document.querySelectorAll(".country-option").forEach(function(item) {
+    item.addEventListener("click", function () {
+        document.getElementById("selectedCode").textContent = this.dataset.code;
+        document.getElementById("phoneCodeMenu").style.display = "none";
     });
+});
 
-    // handle selecting an option
-    document.querySelectorAll('.country-option').forEach(function(item) {
-      item.addEventListener('click', function(e) {
-        e.preventDefault();
-        e.stopPropagation();
-
-        const code = this.getAttribute('data-code');
-        const flag = this.getAttribute('data-flag');
-
-        flagImg.src = flag;
-        codeSpan.textContent = code;
-
-        menu.classList.remove('show');
-      });
-    });
-
-    // close menu when clicking anywhere else
-    document.addEventListener('click', function() {
-      menu.classList.remove('show');
-    });
-  })();
+// Click outside to close
+document.addEventListener("click", function(e) {
+    const menu = document.getElementById("phoneCodeMenu");
+    const button = document.getElementById("phoneCodeButton");
+    if (!button.contains(e.target) && !menu.contains(e.target)) {
+        menu.style.display = "none";
+    }
+});
 </script>
 
 

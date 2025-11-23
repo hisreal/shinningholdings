@@ -25807,7 +25807,7 @@ header.navbar {
   @media (max-width: 768px) {
             .bg-block {
                  height: 250px;
-                 text-align: center;
+                 text-align: left;
                
             }
         }

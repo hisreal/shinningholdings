@@ -116,7 +116,7 @@
              style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
              url('img/services/estate-image.jpg'); border-radius: 15px;">
             <div class="bg-overlay-text">
-               <h1 class="fw-bold display-4 mb-3">
+               <h1 style="text-align: left" class="fw-bold display-4 mb-3">
                  Real Estate and Hospitality
                 </h1>
             </div>

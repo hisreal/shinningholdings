@@ -57,12 +57,12 @@
             </div>
 
 
-            <div class="col-12 col-md-12 col-lg-6 d-flex align-items-center">
+            <!--<div class="col-12 col-md-12 col-lg-6 d-flex align-items-center">
                 <div  class="col text-md-center text-lg-start">
 						<iframe class="bg-light rounded-1 gmap w-100 h-200 h-md-250 h-lg-400" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10600.5248164368!2d144.95966577016594!3d-37.81707816290683!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d4c2b349649%3A0xb6899234e561db11!2sEnvato!5e0!3m2!1sen!2sid!4v1645280096951!5m2!1sen!2sid">
 						</iframe>
 				 </div>
-            </div>
+            </div>-->
 
             
         </div>
@@ -76,12 +76,7 @@
 		<section class="py-5">
 			<div class="container">
 				<div class="row d-md-flex justify-content-md-center gx-lg-5">
-					<div class="col-12 col-md-12 col-lg-6 ">
-						<img src="img/user/uche.png" style="width: 100%" alt="Girl in a jacket">
-						<br>
-						<br>
-						<br>								
-					</div>
+					
 
 					<div class="col-12 col-md-10 col-lg-6 pe-lg-5">
 						<h4 class="text-secondary mb-0">Send a Message</h4>
