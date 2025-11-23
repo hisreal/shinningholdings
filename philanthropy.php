@@ -47,6 +47,9 @@
         <p class="text-muted justify-fix">
           We aim to create opportunities for young people across Africa by supporting educational programs, mentorship, and skills training. Individuals empowered today become the innovators of tomorrow.
         </p>
+         <p class="text-muted justify-fix">
+      In parallel, the Onyemachi Foundation will fund and nurture entrepreneurs, especially those with bold ideas for solving pressing social challenges. By offering seed funding, mentorship, and access to networks, our foundation is committed to growing enterprises that generate not only economic value but also social impact.
+      </p>
 
         <p class="text-muted justify-fix">
           We are also passionate about community-driven development. Across our focus geographies—South Africa and Nigeria—we invest in clean water, health access, local enterprise, and sustainable livelihoods.
