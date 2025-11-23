@@ -27,11 +27,6 @@
                 and promoting responsible business across Africa.
                 </p>
 
-                <p style="text-align: left; font-size: 16px" class="lead text-muted fade-in-bottom">
-                  At Shining Holdings, sustainability is at the heart of how we invest, build, and
-                   grow. We are committed to creating long-term value by supporting the environment,
-                    empowering communities, and promoting responsible business across Africa.</p>
-
              <h5 style="font-weight: 15px;" class="main-head">Our Key Themes of Impact</h5>
 
         <div id="power" class="bg-block mb-4" 

@@ -32,7 +32,7 @@
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="philanthropy.php" id="dropdownCompany" data-bs-toggle="dropdown" aria-expanded="false">Impact</a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="philanthropy.php">Philanthropy</a></li>
+                        <li><a class="dropdown-item" href="philanthropy.php">Onyemachi Foundation</a></li>
                         <li><a class="dropdown-item" href="sustainability.php">Sustainability</a></li>
 
                     </ul>
@@ -48,9 +48,10 @@
                 </li>
                 
             </ul>
+	       
 
-           
         </div>
+        
     </div>
 </header>
 <!-- header end -->

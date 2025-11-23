@@ -42,9 +42,7 @@
           Shining Holdings, through the Onyemachi Foundation, dedicates itself to empowering underserved communities by focusing on education, entrepreneurship, and community development. We see these as the pillars of sustainable prosperity.
         </p>
 
-        <p class="text-muted justify-fix">
-          We aim to create opportunities for young people across Africa by supporting educational programs, mentorship, and skills training. We believe investing in human capital creates exponential returns.
-        </p>
+      
 
         <p class="text-muted justify-fix">
           We aim to create opportunities for young people across Africa by supporting educational programs, mentorship, and skills training. Individuals empowered today become the innovators of tomorrow.

@@ -25,7 +25,7 @@
 
                 <p class="policy-heading">Introduction</p>
                 <p class="policy-content">
-                  Welcome to Shining Holdings (“we”, “our”, “us”). By accessing or using our website (the <a href="https://www.shiningholdings.com/" style="text-decoration: none; color: #125a52" target="_blank">www.shiningholdings.com</a>) or submitting information (such as investor registration), you agree to be bound by these Terms & Conditions (the “Terms”). If you do not agree, please do not use the Site or provide any information.
+                  Welcome to Shining Holdings (“we”, “our”, “us”). By accessing or using our website the <a href="https://www.shiningholdings.com/" style="text-decoration: none; color: #125a52" target="_blank">www.shiningholdings.com</a> or submitting information (such as investor registration), you agree to be bound by these Terms & Conditions (the “Terms”). If you do not agree, please do not use the Site or provide any information.
                 </p>
 
                 <p class="policy-heading">Use of the Website</p>

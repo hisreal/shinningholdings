@@ -120,11 +120,6 @@
 </div>
 </footer>
 
-<div id="imageModal" class="custom-modal">
-  <span class="close-modal">&times;</span>
-  <img class="modal-content-img" id="modalImage">
-  <div id="modalCaption"></div>
-</div>
 
 <!-- footer end -->
 <!-- to top begin -->
@@ -132,8 +127,6 @@
   <a href="#" class="to-top fas fa-arrow-up text-decoration-none text-white"></a>
 </div>
 <!-- to top end -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightbox2@2/dist/css/lightbox.min.css">
-<script src="https://cdn.jsdelivr.net/npm/lightbox2@2/dist/js/lightbox.min.js"></script>
 
 <!-- javascript -->
 <script src="js/vendors/bootstrap.bundle.min.js"></script>
