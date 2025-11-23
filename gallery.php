@@ -7,7 +7,7 @@
     <div class="row ">
       <div class="hero-content col-md-10 col-lg-8">
         <h1 class="fw-bold display-4 mb-3">
-          Investment Portfolio
+         Our Gallery
         </h1>
         
       </div>
