@@ -39,10 +39,13 @@
          success position him as a rising leader across multiple industries and continents.</p>
 
          <!-- Trigger Button -->
-<h5 class="main-head" style="font-size: 14x; text-transform: capitalize; cursor: pointer" data-bs-toggle="modal" data-bs-target="#imageModal">
-  founder's Letter
+<h5 class="main-head" style="font-size: 14x;  cursor: pointer" data-bs-toggle="modal" data-bs-target="#imageModal">
+  THE FOUNDER'S LETTER
 </h5>
 
+<h5 class="main-head" style="font-size: 14x;  cursor: pointer" data-bs-toggle="modal" data-bs-target="#imageModal">
+  THE FOUNDER'S LETTER
+</h5>
 <!-- Image Modal -->
 <div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered modal-xl">
