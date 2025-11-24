@@ -83,9 +83,9 @@
             with a diverse business portfolio spanning fashion, cryptocurrency, transportation, and energy.
         </p>
 
-        <a href="bio.php" class="btn btn-primary rounded-pill mt-2">
+        <center><a  href="bio.php" class="btn special-center btn-primary rounded-pill mt-2">
             Learn more <i class="fas fa-arrow-right fa-sm ms-1"></i>
-        </a>
+        </a></center>
     </div>
 </div>
 

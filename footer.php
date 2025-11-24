@@ -20,7 +20,7 @@
         <!-- Social icons -->
         <div class="d-flex gap-3 mt-3">
           <a href="#" class="icon-circle"><i class="bi bi-facebook"></i></a>
-          <a href="#" class="icon-circle"><i class="bi bi-instagram"></i></a>
+          <a href="https://www.instagram.com/shiningholdings?igsh=azM2djgzenFsZWk=" target="_blank" class="icon-circle"><i class="bi bi-instagram"></i></a>
           <a href="#" class="icon-circle"><i class="fa-brands fa-x-twitter"></i></a>
           <a href="#" class="icon-circle"><i class="bi bi-linkedin"></i></a>
          
@@ -84,7 +84,7 @@
       <span class="me-2 text-primary">
         <i class="bi bi-chevron-right"></i>
       </span>
-      <a href="#" class="text-decoration-none text-muted">Media</a>
+      <a href="gallery.php" class="text-decoration-none text-muted">Media</a>
     </li>
    
     <li class="mb-2 d-flex align-items-center">
