@@ -82,4 +82,5 @@ foreach ($_COOKIE as $name => $value) {
 				</div>
 			</div>
 		</section>
+    <?php require_once("call.php"); ?>
 <?php require_once("footer.php"); ?>
