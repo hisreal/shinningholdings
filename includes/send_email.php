@@ -11,7 +11,7 @@ if(isset($_POST['name'], $_POST['email'], $_POST['subject'], $_POST['phone'], $_
     $message = $_POST['message'];
 
     $from = "info@shiningholdings.com"; 
-    $to   = "info@shiningholdings.com"; 
+    $to   = "ajiboye820@gmail.com"; 
     $subjectLine = "New Contact Form Submission: $subject";
 
     $html = "
