@@ -10,8 +10,8 @@ if(isset($_POST['name'], $_POST['email'], $_POST['subject'], $_POST['phone'], $_
     $phone   = $_POST['phone'];
     $message = $_POST['message'];
 
-    $from = "myemail@mydomain.com"; 
-    $to   = "john@myfriendsdomain.com"; 
+    $from = "info@shiningholdings.com"; 
+    $to   = "info@shiningholdings.com"; 
     $subjectLine = "New Contact Form Submission: $subject";
 
     $html = "
@@ -44,8 +44,8 @@ if(isset($_POST['name'], $_POST['email'], $_POST['subject'], $_POST['phone'], $_
     $smtp = Mail::factory('smtp', array(
         'host'     => "localhost",
         'auth'     => true,
-        'username' => "myemail@mydomain.com",
-        'password' => "23ert5"
+        'username' => "info@shiningholdings.com",
+        'password' => "@Investment25"
     ));
 
     $mail = $smtp->send($to, $headers, $body);

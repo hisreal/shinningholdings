@@ -93,29 +93,42 @@ foreach ($_COOKIE as $name => $value) {
 					<div class="col-12 col-md-10 col-lg-6 pe-lg-5">
 						<h4 class="text-secondary mb-0">Send a Message</h4>
 						<p style="font-size: 16px" class="lead text-muted">Please fill in the form below to get in touch with us.</p>
-						<form id="contact-form" class="row g-1 mt-2" novalidate="">
+						<form id="contact-form" class="row g-1 mt-2" novalidate>
+    
+							<div id="alertMessage"></div> <!-- BOOTSTRAP ALERT HERE -->
+
 							<div class="col-md-6">
-								<input class="form-control" id="name" name="name" type="text" placeholder="Full name" aria-label="Full name" required="">
+								<input class="form-control" id="name" name="name" type="text" placeholder="Full name" aria-label="Full name" required>
 							</div>
+
 							<div class="col-md-6">
-								<input class="form-control" id="email" name="email" type="email" placeholder="Email address" aria-label="Email address" required="">
+								<input class="form-control" id="email" name="email" type="email" placeholder="Email address" aria-label="Email address" required>
 							</div>
+
 							<div class="col-md-6">
-								<input class="form-control" id="subject" name="subject" type="text" placeholder="Subject" aria-label="Subject" required="">
+								<input class="form-control" id="subject" name="subject" type="text" placeholder="Subject" aria-label="Subject" required>
 							</div>
+
 							<div class="col-md-6">
-								<input class="form-control" id="phone" name="subject" type="text" placeholder="Phone Number" aria-label="Subject" required="">
+								<input class="form-control" id="phone" name="phone" type="text" placeholder="Phone Number" aria-label="Phone Number" required>
 							</div>
+
 							<div class="col-12">
-								<textarea class="form-control" id="message" name="message" placeholder="Message" rows="6" required=""></textarea>
+								<textarea class="form-control" id="message" name="message" placeholder="Message" rows="6" required></textarea>
 							</div>
-							<p style="font-size: 16px" class="lead text-muted">By clicking submit, you agree to our 
-								<a style="text-decoration: none" href="">Terms</a> and <a style="text-decoration: none"  href="">Data Collection Clause.</a> You may receive notification from us and can opt out at 
-								any time.</p>
-							<div  class="d-grid">
-								<button style="max-width: 200px" class="btn btn-primary mt-2" id="sendemail" type="submit" name="submit">Send Message</button>
+
+							<p style="font-size: 16px" class="lead text-muted">
+								By clicking submit, you agree to our 
+								<a style="text-decoration:none" href="">Terms</a> and <a style="text-decoration:none" href="">Data Collection Clause.</a>
+								You may receive notification from us and can opt out at any time.
+							</p>
+
+							<div class="d-grid">
+								<button style="max-width:200px" class="btn btn-primary mt-2" id="sendemail" type="submit">Submit</button>
 							</div>
+
 						</form>
+
 						
 					</div>
 				
