@@ -43,9 +43,9 @@
                         <li><a class="dropdown-item" href="gallery.php">Gallery</a></li>
                     </ul>
                 </li>
-                  <li class="nav-item">
+                  <!--<li class="nav-item">
                     <a class="nav-link" href="signup.php">Sign Up</a>
-                </li>
+                </li>-->
                 
             </ul>
 	       
