@@ -119,7 +119,7 @@ foreach ($_COOKIE as $name => $value) {
 
 							<p style="font-size: 16px" class="lead text-muted">
 								By clicking submit, you agree to our 
-								<a style="text-decoration:none" href="">Terms</a> and <a style="text-decoration:none" href="">Data Collection Clause.</a>
+								<a style="text-decoration:none" href="terms.php">Terms</a> and <a style="text-decoration:none" href="document/Shining Holdings Data Collection Consent Clause (1).pdf">Data Collection Clause.</a>
 								You may receive notification from us and can opt out at any time.
 							</p>
 
