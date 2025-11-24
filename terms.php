@@ -1,3 +1,15 @@
+<?php
+$page_title = "Terms and Conditions || Shining Holdings ";
+$page_description = "Shining Holdings is a pan‑African investment company driving long-term value creation across power, energy, real estate, technology, and healthcare.";
+$page_keyword = "African investment company, Africapitalism, long-term investments, power, energy, financial services";
+$page_url = "https://www.shiningholdings.com/";
+header("Cache-Control: no-cache, must-revalidate, max-age=0");
+header("Pragma: no-cache");
+
+foreach ($_COOKIE as $name => $value) {
+    setcookie($name, "", time() - 3600, "/");
+}
+?>
 <?php require_once("header.php"); ?>
 <?php //require_once("page_loader.php"); ?>
 <?php require_once("nav-bar.php");?>
@@ -25,7 +37,7 @@
 
                 <p class="policy-heading">Introduction</p>
                 <p class="policy-content">
-                  Welcome to Shining Holdings (“we”, “our”, “us”). By accessing or using our website the <a href="https://www.shiningholdings.com/" style="text-decoration: none; color: #125a52" target="_blank">www.shiningholdings.com</a> or submitting information (such as investor registration), you agree to be bound by these Terms & Conditions (the “Terms”). If you do not agree, please do not use the Site or provide any information.
+                  Welcome to Shining Holdings (“we”, “our”, “us”). By accessing or using our website <a href="https://www.shiningholdings.com/" style="text-decoration: none; color: #125a52" target="_blank">www.shiningholdings.com</a> or submitting information (such as investor registration), you agree to be bound by these Terms & Conditions (the “Terms”). If you do not agree, please do not use the Site or provide any information.
                 </p>
 
                 <p class="policy-heading">Use of the Website</p>

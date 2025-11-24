@@ -1,3 +1,15 @@
+<?php
+$page_title = "About Shining Holdings";
+$page_description = "Learn about Shining Holdings’ mission, vision, and investment philosophy. A family‑owned group committed to transforming Africa through strategic long-term investments.";
+$page_keyword = "Shining Holdings about, Africapitalism, Uche Onyemachi, investment philosophy, African development";
+$page_url = "https://www.shiningholdings.com/";
+header("Cache-Control: no-cache, must-revalidate, max-age=0");
+header("Pragma: no-cache");
+
+foreach ($_COOKIE as $name => $value) {
+    setcookie($name, "", time() - 3600, "/");
+}
+?>
 <?php require_once("header.php"); ?>
 <?php //require_once("page_loader.php"); ?>
 <?php require_once("nav-bar.php");?>

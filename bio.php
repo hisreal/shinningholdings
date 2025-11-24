@@ -1,3 +1,15 @@
+<?php
+$page_title = "About Me || Shining Holdings";
+$page_description = "Learn about Shining Holdings’ mission, vision, and investment philosophy. A family‑owned group committed to transforming Africa through strategic long-term investments.";
+$page_keyword = "Shining Holdings about, Africapitalism, Uche Onyemachi, investment philosophy, African development";
+$page_url = "https://www.shiningholdings.com/";
+header("Cache-Control: no-cache, must-revalidate, max-age=0");
+header("Pragma: no-cache");
+
+foreach ($_COOKIE as $name => $value) {
+    setcookie($name, "", time() - 3600, "/");
+}
+?>
 <?php require_once("header.php"); ?>
 <?php //require_once("page_loader.php"); ?>
 <?php require_once("nav-bar.php");?>
@@ -38,11 +50,12 @@
 
 	<p style="text-align: center; font-size: 16px" class="lead text-muted">Uche is committed to achieving his goals and continuously expanding his ventures. Despite his young age, his strategic investments and relentless pursuit of
          success position him as a rising leader across multiple industries and continents.</p>
-
-         <!-- Trigger Button -->
-<h5 class="main-head" style="font-size: 14x;  cursor: pointer" data-bs-toggle="modal" data-bs-target="#imageModal">
-  THE FOUNDER'S LETTER
-</h5>
+<div class="container text-center">
+    <div class="d-flex justify-content-center gap-1">
+        <a style="font-size: 14px; font-weight:200; background: #125a52; color: white"" href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#imageModal">The Founder's Letter</a>
+        <a style="font-size: 14px; font-weight:200; background: #262626; color: white" href="gallery.php" class="btn btn-secondary">Founder's Gallery</a>
+    </div>
+</div>
 
 
 <!-- Image Modal -->

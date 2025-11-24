@@ -1,3 +1,15 @@
+<?php
+$page_title = "Contact Us – Shining Holdings";
+$page_description = "Get in touch with Shining Holdings for partnership, investor relations, or media inquiries. Let’s build Africa’s future together.";
+$page_keyword = "contact Shining Holdings, investor relations, partnership, media, African investment";
+$page_url = "https://www.shiningholdings.com/";
+header("Cache-Control: no-cache, must-revalidate, max-age=0");
+header("Pragma: no-cache");
+
+foreach ($_COOKIE as $name => $value) {
+    setcookie($name, "", time() - 3600, "/");
+}
+?>
 <?php require_once("header.php"); ?>
 <?php //require_once("page_loader.php"); ?>
 <?php require_once("nav-bar.php");?>

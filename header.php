@@ -1,22 +1,39 @@
-<?php
-header("Cache-Control: no-cache, must-revalidate, max-age=0");
-header("Pragma: no-cache");
-?>
-<?php
-foreach ($_COOKIE as $name => $value) {
-    setcookie($name, "", time() - 3600, "/");
-}
-?>
-
 <!doctype html>
 <html lang="en">
 <head>
 	<!-- Meta tags -->
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Finance and Investment HTML Template by Indonez">
-	<meta name="keywords" content="blockit, bootstrap, indonez, handlebars, scss, javascript">
-	<meta name="author" content="Indonez">
+	<title><?php echo $page_title; ?> | Shining Holdings</title>
+
+  <!-- Author -->
+  <meta name="author" content="Shining Holdings" />
+
+  <!-- Description -->
+  <meta name="description" content="<?php echo $page_description; ?>" />
+
+  <!-- Keywords -->
+  <meta name="keywords" content="<?php echo $page_keyword; ?>" />
+
+  <!-- Favicon -->
+  <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:title" content="<?php echo $page_title; ?> | Shining Holdings" />
+  <meta property="og:description" content="<?php echo $page_description; ?>" />
+  <meta property "og:image" content="https://www.shiningholdings.com/path-to-share-image.jpg" />
+  <meta property="og:url" content="<?php echo $page_url; ?>" />
+  <meta property="og:type" content="website" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="<?php echo $page_title; ?>| Shining Holdings" />
+  <meta name="twitter:description" content="<?php echo $page_description; ?>" />
+  <meta name="twitter:site" content="@ShiningHoldings" />
+
+  <meta name="robots" content="index, follow" />
+
 	<meta name="theme-color" content="#125a52">
 	<!-- critical preload -->
 	<link rel="preload" href="js/vendors/bootstrap.bundle.min.js" as="script">
@@ -55,6 +72,5 @@ textarea.form-control:focus {
 
 	</style>
 	<link rel="apple-touch-icon-precomposed" href="img/apple-touch-icon.png">
-	<title>Shining Holding || Manage & grow investment assets securely</title>
 	
 </head>

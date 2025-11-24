@@ -1,3 +1,15 @@
+<?php
+$page_title = "Sustainability || Shining Holdings ";
+$page_description = "Shining Holdings is a pan‑African investment company driving long-term value creation across power, energy, real estate, technology, and healthcare.";
+$page_keyword = "African investment company, Africapitalism, long-term investments, power, energy, financial services";
+$page_url = "https://www.shiningholdings.com/";
+header("Cache-Control: no-cache, must-revalidate, max-age=0");
+header("Pragma: no-cache");
+
+foreach ($_COOKIE as $name => $value) {
+    setcookie($name, "", time() - 3600, "/");
+}
+?>
 <?php require_once("header.php"); ?>
 <?php //require_once("page_loader.php"); ?>
 <?php require_once("nav-bar.php");?>

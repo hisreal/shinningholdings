@@ -1,3 +1,15 @@
+<?php
+$page_title = "Our Investments – Shining Holdings";
+$page_description = "Explore our diversified portfolio at Heirs Holdings: energy, power, financial services, real estate & hospitality, healthcare, and technology.";
+$page_keyword = "Shining Holdings investments, energy investments Africa, power, banking, real estate, healthcare, technology";
+$page_url = "https://www.shiningholdings.com/";
+header("Cache-Control: no-cache, must-revalidate, max-age=0");
+header("Pragma: no-cache");
+
+foreach ($_COOKIE as $name => $value) {
+    setcookie($name, "", time() - 3600, "/");
+}
+?> 
 <?php require_once("header.php"); ?>
 <?php //require_once("page_loader.php"); ?>
 <?php require_once("nav-bar.php");?>
