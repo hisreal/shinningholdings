@@ -225,19 +225,19 @@ foreach ($_COOKIE as $name => $value) {
         Stay in touch to get exclusive news and insights from across our investment portfolio.
       </p>
 
-      <form>
+      <form id="subscribeForm">
         <div class="mb-3">
-          <input type="text" class="form-control border-1" placeholder="Full Name">
+          <input type="text" name="firstname" id="firstname" class="form-control border-1" placeholder="Full Name">
         </div>
 
         <div class="mb-3">
-          <input type="email" style="background: white" class="form-control border-1" placeholder="Your Email">
+          <input type="email" style="background: white" name="email" id="email"  class="form-control border-1" placeholder="Your Email">
         </div>
 
         <p style="font-size: 14px; color: white;" class="mb-4" class="small" style="max-width: 430px;">
           By clicking Subscribe, I agree that Shining holdings Holdings may use my contact details to send me communications and I consent to the Terms as provided in the Privacy Policy and Data Collection Clause.
         </p>
-
+			<div id="subscribeAlert" class="mt-3"></div>
         <button type="submit" class="btn btn-light text-uppercase" style="letter-spacing:2px; font-size:12px;">
           Subscribe
         </button>
