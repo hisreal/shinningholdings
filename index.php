@@ -235,7 +235,7 @@ foreach ($_COOKIE as $name => $value) {
         </div>
 
         <p style="font-size: 14px; color: white;" class="mb-4" class="small" style="max-width: 430px;">
-          By clicking Subscribe, I agree that Shining holdings Holdings may use my contact details to send me communications and I consent to the Terms as provided in the Privacy Policy and Data Collection Clause.
+          By clicking Subscribe, I agree that Shining Holdings may use my contact details to send me communications and I consent to the Terms as provided in the Privacy Policy and Data Collection Clause.
         </p>
 			<div id="subscribeAlert" class="mt-3"></div>
         <button type="submit" class="btn btn-light text-uppercase" style="letter-spacing:2px; font-size:12px;">
