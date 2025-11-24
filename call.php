@@ -8,24 +8,36 @@
         SIGN UP FOR EMAIL UPDATES
       </h4>
 
-      <form class="d-flex flex-column flex-sm-row justify-content-center align-items-center gap-2">
+      <form id="subscribeForm" 
+      class="d-flex flex-column flex-sm-row justify-content-center align-items-center gap-2">
 
-        <input type="text" 
-               class="form-control"
-               style="max-width:250px; height:35px;"
-               placeholder="First Name">
+				<input type="text" 
+					name="firstname"
+					id="firstname"
+					class="form-control"
+					style="max-width:250px; height:35px;"
+					placeholder="First Name"
+					required>
 
-        <input type="email" 
-               class="form-control"
-               style="max-width:250px; height:35px;"
-               placeholder="Your Email">
+				<input type="email" 
+					name="email"
+					id="email"
+					class="form-control"
+					style="max-width:250px; height:35px;"
+					placeholder="Your Email"
+					required>
 
-        <button class="btn" 
-                style="background:#125a52; font-size: 14px; font-weight: 200; color: white; padding: 5px 10px">
-          Subscribe
-        </button>
+				<button type="submit"
+						class="btn"
+						style="background:#125a52; font-size: 14px; font-weight: 200; color: white; padding: 5px 10px">
+				Subscribe
+				</button>
 
-      </form>
+			</form>
+
+			<!-- Bootstrap alert shows here -->
+			<div id="subscribeAlert" class="mt-3"></div>
+
 
     </div>
   </div>

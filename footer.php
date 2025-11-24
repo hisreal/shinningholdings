@@ -139,6 +139,32 @@
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
 <script>
+$('#subscribeForm').on('submit', function(e){
+    e.preventDefault(); // no page reload
+
+    $.ajax({
+        url: 'subscribe_email.php', // your PHP script
+        type: 'POST',
+        data: {
+            firstname: $('#firstname').val(),
+            email: $('#email').val()
+        },
+        success: function(response){
+            $('#subscribeAlert').html(
+                '<div class="alert alert-success">'+response+'</div>'
+            );
+            $('#subscribeForm')[0].reset();
+        },
+        error: function(){
+            $('#subscribeAlert').html(
+                '<div class="alert alert-danger">Something went wrong. Try again.</div>'
+            );
+        }
+    });
+});
+</script>
+
+<script>
 $('#contact-form').on('submit', function(e){
     e.preventDefault();
 
