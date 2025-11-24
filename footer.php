@@ -147,7 +147,7 @@ $('#contact-form').on('submit', function(e){
     $("#sendemail").attr("disabled", true).text("Sending...");
 
     $.ajax({
-        url: 'send_email.php',
+        url: 'includes/send_email.php',
         type: 'POST',
         data: formData,
         contentType: false,
