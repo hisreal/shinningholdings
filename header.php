@@ -16,8 +16,8 @@
   <meta name="keywords" content="<?php echo $page_keyword; ?>" />
 
   <!-- Favicon -->
-  <link rel="icon" href="/favicon.ico" type="image/x-icon" />
-  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+  <link rel="icon" href="img/user/favicon.png" type="image/x-icon" />
+  <link rel="shortcut icon" href="img/user/favicon.png" type="image/x-icon" />
 
   <!-- Open Graph / Facebook -->
   <meta property="og:title" content="<?php echo $page_title; ?> | Shining Holdings" />
@@ -47,9 +47,7 @@
 	<link rel="preload" href="fonts/dm-sans-v11-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
 	<!-- stylesheet -->
 	<link rel="stylesheet" href="css/style.css?v=<?php echo filemtime('css/style.css');?>">
-	<!-- Favicon -->
-	<link rel="shortcut icon" href="img/user/favicon.png" type="image/x-icon">
-	<!-- Touch icon -->
+	
 <link
   rel="stylesheet"
   href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
