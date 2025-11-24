@@ -1,15 +1,32 @@
+<hr style="border: none; height: 1px; background-color: lavender; width: 100%; margin: 20px auto;">
 
-		<section style="margin-top:-50px;" class="py-5">
-			<div class="container">
-				<div class="row">
-					<div class="col-12">
-						<div class="card shadow-sm border-primary">
-							<div class="card-body d-lg-flex justify-content-between align-items-center p-4">
-								<h6 class="fw-bold mb-0">Partner with us to unlock Africa’s potential — whether as an <span class="text-highlight">investor, entrepreneur, or collaborator</span></h6>
-								<a class="btn btn-primary rounded-pill mt-2 mt-lg-0" href="signup.php">Signup<i class="fas fa-arrow-right fa-sm ms-1"></i></a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
+		<div style="font-size: 14px; font-weight: 200" class="container py-5">
+  <div class="row justify-content-center">
+    <div class="col-lg-10 text-center">
+
+      <h4 style="letter-spacing:2px; font-size: 14px; color:#6c757d; ">
+        SIGN UP FOR EMAIL UPDATES
+      </h4>
+
+      <form class="d-flex justify-content-center gap-2 flex-wrap">
+
+        <input type="text" 
+               class="form-control"
+               style="max-width:250px; height:35px;"
+               placeholder="First Name">
+
+        <input type="email" 
+               class="form-control"
+               style="max-width:250px; height:35px;"
+               placeholder="Your Email">
+
+        <button class="btn" 
+                style="background:#125a52; font-size: 14px; font-weight: 200; color: white; padding: 5px 10px">
+          Subscribe
+        </button>
+
+      </form>
+
+    </div>
+  </div>
+</div>

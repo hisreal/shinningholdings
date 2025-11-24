@@ -183,28 +183,31 @@ foreach ($_COOKIE as $name => $value) {
 <section style="margin-top:-60px;" class="py-5">
 <div class="container">
 	<div class="row justify-content-center ">
-					<div class="col-md-12 col-lg-10">
+		
+					<div class="col-md-8">
+						
 						<div class=" card-body text-center">
 							<h5 class="main-head">WHY INVEST WITH US</h5>
-							<div  class="row row-cols-1 row-cols-md-4">
-								<div style="padding: 5px" class="col">
-								<a  style="border: 1px solid #125a52; background-color: white"  class="card card-body text-center">
-									<p>Strong presence in South Africa & Nigeria</p>
-								</a>
+							<div class="row ">
+
+								<div style="padding: 5px" class="col-md-6">
+									<a  style="border: 1px solid #125a52; background-color: white"  class="card card-body text-center">
+										<p>Strong presence in South Africa & Nigeria</p>
+									</a>
 								</div>
-								<div style="padding: 5px"class="col">
+
+								<div style="padding: 5px" class="col-md-6">
 								<a  style="border: 1px solid #125a52; background-color: white"  class="card card-body text-center">
 									<p>Clear growth strategy across Africa</p>
 								</a>
 								</div>
-								<div style="padding: 5px" class="col">
-								
+							<div style="padding: 5px" class="col-md-6">
 								<a  style="border: 1px solid #125a52; background-color: white"  class="card card-body text-center">
 									<p>Disciplined, impact-focused investment approach</p>
 								</a>
 								</div>
-								<div style="padding: 5px" class="col">
-									
+							
+							<div style="padding: 5px" class="col-md-6">		
 								<a  style="border: 1px solid #125a52; background-color: white"  class="card card-body text-center">
 									<p>Transparent governance and reporting</p>
 								</a>
@@ -212,6 +215,37 @@ foreach ($_COOKIE as $name => $value) {
 							</div>
 						</div>
 					</div>
+
+
+					<div  class="col-md-4 py-5 justify-content-start">
+<div style="background:#125a52; margin: 5px; padding: 20px">
+      <h3 style="font-size: 14px; color: white;" class="mb-4" class="mb-3">Sign Up For Email Updates</h3>
+
+      <p style="font-size: 14px; color: white;" class="mb-4" style="max-width: 420px;">
+        Stay in touch to get exclusive news and insights from across our investment portfolio.
+      </p>
+
+      <form>
+        <div class="mb-3">
+          <input type="text" class="form-control border-1" placeholder="Full Name">
+        </div>
+
+        <div class="mb-3">
+          <input type="email" style="background: white" class="form-control border-1" placeholder="Your Email">
+        </div>
+
+        <p style="font-size: 14px; color: white;" class="mb-4" class="small" style="max-width: 430px;">
+          By clicking Subscribe, I agree that Heirs Holdings may use my contact details to send me communications and I consent to the Terms as provided in the Privacy Policy and Data Collection Clause.
+        </p>
+
+        <button type="submit" class="btn btn-light text-uppercase" style="letter-spacing:2px; font-size:12px;">
+          Subscribe
+        </button>
+      </form>
+
+    </div>
+</div>
+
 				</div>
 			</div>
 		</section>
