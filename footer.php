@@ -135,6 +135,42 @@
 <script src="js/utilities.min.js"></script>
 <script src="js/config-theme.js"></script>
 <script src="js/vendors/countrycode.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+$('#investorForm').on('submit', function(e){
+    e.preventDefault(); // prevent page reload
+
+    var $form = $(this);
+    var $submitBtn = $form.find('button[type="submit"]');
+
+    // Disable button & show spinner
+    $submitBtn.prop('disabled', true);
+    var originalBtnText = $submitBtn.html();
+    $submitBtn.html('<span class="spinner-border spinner-border-sm me-2" role="status" aria-hidden="true"></span>Submitting...');
+
+    var formData = new FormData(this);
+
+    $.ajax({
+        url: 'include/send_investor_email.php', // your PHP script
+        type: 'POST',
+        data: formData,
+        contentType: false,
+        processData: false,
+        success: function(response){
+            $('#alertMessage').html('<div class="alert alert-success">'+response+'</div>');
+            $form[0].reset();
+        },
+        error: function(){
+            $('#alertMessage').html('<div class="alert alert-danger">Error sending form. Please try again.</div>');
+        },
+        complete: function(){
+            // Re-enable button & restore text
+            $submitBtn.prop('disabled', false);
+            $submitBtn.html(originalBtnText);
+        }
+    });
+});
+</script>
 
 <script>
   // Stop template sticky menu completely
