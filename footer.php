@@ -51,7 +51,7 @@
           </li>
           <li class="mb-2 d-flex">
             <span class="me-2 text-primary"><i class="bi bi-compass-fill"></i></span>
-            <a href="#" class="text-decoration-none">View direction on map</a>
+            <a href="https://maps.app.goo.gl/CTUFXawkdwKM8go69" class="text-decoration-none">View direction on map</a>
           </li>
         </ul>
       </div>
