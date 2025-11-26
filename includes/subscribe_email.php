@@ -68,8 +68,8 @@ if (isset($_POST['firstname'], $_POST['email'])) {
         $auto->isSMTP();
         $auto->SMTPAuth = true;
         $auto->Host = "2.qservers.net";
-        $auto->Port = 25; 
-        // $auto->SMTPSecure = 'tls'; 
+        $auto->Port =465; 
+        $auto->SMTPSecure = 'ssl'; 
         $auto->Username = "info@shiningholdings.com";
         $auto->Password = "@Investment25";
 
