@@ -134,15 +134,8 @@ foreach ($_COOKIE as $name => $value) {
 				
 				</div>
 			</div>
-			<!-- success notification begin -->
-			<div class="position-fixed bottom-0 end-0 p-4" style="z-index: 2">
-				<div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
-					<div class="toast-body text-primary">
-						<i class="fas fa-check-circle me-1"></i>Your message has been sent successfully. Thank you!
-					</div>
-				</div>
-			</div>
-			<!-- success notification end -->
+			<div id="alertMessage"></div> <!-- AJAX success/error messages appear here -->
+
 		</section>
 		<!-- section content end -->
 	</main>

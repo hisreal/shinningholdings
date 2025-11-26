@@ -165,37 +165,34 @@ $('#subscribeForm').on('submit', function(e){
 </script>
 
 <script>
-$('#contact-form').on('submit', function(e){
-    e.preventDefault();
+$(document).ready(function() {
+    $('#contact-form').on('submit', function(e) {
+        e.preventDefault(); // prevent page refresh
+        let form = $(this);
+        let alertBox = $('#alertMessage');
+        alertBox.html(''); // clear previous alerts
 
-    var formData = new FormData(this);
-
-    $("#sendemail").attr("disabled", true).text("Sending...");
-
-    $.ajax({
-        url: 'includes/send_email.php',
-        type: 'POST',
-        data: formData,
-        contentType: false,
-        processData: false,
-        
-        success: function(response){
-            $('#alertMessage').html(
-                '<div class="alert alert-success">'+response+'</div>'
-            );
-            $('#contact-form')[0].reset();
-            $("#sendemail").attr("disabled", false).text("Submit");
-        },
-
-        error: function(xhr, status, error){
-            $('#alertMessage').html(
-                '<div class="alert alert-danger">Unable to send your message. Please try again.</div>'
-            );
-            $("#sendemail").attr("disabled", false).text("Submit");
-        }
+        $.ajax({
+            url: 'includes/send_email.php', // path to PHP file
+            type: 'POST',
+            data: form.serialize(),
+            dataType: 'json',
+            success: function(response) {
+                if(response.status === 'success') {
+                    alertBox.html('<div class="alert alert-success">' + response.message + '</div>');
+                    form[0].reset(); // reset form
+                } else {
+                    alertBox.html('<div class="alert alert-danger">' + response.message + '</div>');
+                }
+            },
+            error: function() {
+                alertBox.html('<div class="alert alert-danger">An unexpected error occurred. Please try again.</div>');
+            }
+        });
     });
 });
 </script>
+
 
 
 

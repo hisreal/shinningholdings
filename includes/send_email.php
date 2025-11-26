@@ -1,5 +1,4 @@
 <?php
-
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
@@ -7,52 +6,69 @@ require 'PHPMailer/src/PHPMailer.php';
 require 'PHPMailer/src/SMTP.php';
 require 'PHPMailer/src/Exception.php';
 
-if (isset($_POST['firstname'], $_POST['email'])) {
+// Only process POST requests
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
-    $firstname = $_POST['firstname'];
-    $email = $_POST['email'];
+    // Get form values and sanitize
+    $name    = trim($_POST['name'] ?? '');
+    $email   = trim($_POST['email'] ?? '');
+    $subject = trim($_POST['subject'] ?? '');
+    $phone   = trim($_POST['phone'] ?? '');
+    $message = trim($_POST['message'] ?? '');
 
-    $mail = new PHPMailer(true);
+    // Validate required fields
+    if (!$name || !$email || !$subject || !$phone || !$message) {
+        echo json_encode(['status' => 'error', 'message' => 'Please fill in all fields.']);
+        exit;
+    }
+
+    // Validate email
+    if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+        echo json_encode(['status' => 'error', 'message' => 'Invalid email address.']);
+        exit;
+    }
 
     try {
-        // SMTP configuration
+        $mail = new PHPMailer(true);
         $mail->isSMTP();
         $mail->SMTPAuth = true;
         $mail->Host = "2.qservers.net";
-        $mail->Port = 25; 
-        // $mail->SMTPSecure = 'tls'; // enable if your hosting requires it
-        $mail->Username = "test2@shiningholdings.com";
-        $mail->Password = "[P.;H9.;rN!NimLT";
+        $mail->Port = 465;
+        $mail->SMTPSecure = 'ssl'; 
+        $mail->Username = "info@shiningholdings.com";
+        $mail->Password = "@Investment25";
 
-        // Email headers
-        $mail->setFrom('no-reply@shiningholdings.com', 'New Subscriber');
-        $mail->addReplyTo($email, $firstname); 
-        $mail->addAddress("hello@mcu.eduportal.app"); // receiver email
+        $mail->setFrom($email, $name);
+        $mail->addAddress("info@shiningholdings.com"); // your contact email
+        $mail->addReplyTo($email, $name);
 
-        // Email content
         $mail->isHTML(true);
-        $mail->Subject = "New Newsletter Subscriber";
+        $mail->Subject = "Contact Form: $subject";
+
         $mail->Body = "
-            <html><body>
-                <h3>New Subscriber Details</h3>
-                <p><strong>Name:</strong> {$firstname}</p>
-                <p><strong>Email:</strong> {$email}</p>
-            </body></html>
+            <h3>New Contact Form Submission</h3>
+            <p><strong>Name:</strong> {$name}</p>
+            <p><strong>Email:</strong> {$email}</p>
+            <p><strong>Phone:</strong> {$phone}</p>
+            <p><strong>Subject:</strong> {$subject}</p>
+            <p><strong>Message:</strong><br>{$message}</p>
         ";
 
-        $mail->AltBody = "New Subscriber:\nName: $firstname\nEmail: $email";
+        $mail->AltBody = "New Contact Form Submission\n
+            Name: {$name}\n
+            Email: {$email}\n
+            Phone: {$phone}\n
+            Subject: {$subject}\n
+            Message: {$message}\n
+        ";
 
-        // Send
         $mail->send();
-
-        echo "Subscription successful! Thank you.";
-
+        echo json_encode(['status' => 'success', 'message' => 'Your message has been sent successfully!']);
     } catch (Exception $e) {
-        echo "Mailer Error: " . $mail->ErrorInfo;
+        echo json_encode(['status' => 'error', 'message' => 'Mailer Error: ' . $mail->ErrorInfo]);
     }
 
 } else {
-    echo "Invalid request.";
+    echo json_encode(['status' => 'error', 'message' => 'Invalid request.']);
 }
-
 ?>
