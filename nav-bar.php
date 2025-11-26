@@ -8,7 +8,7 @@
         <div class="collapse navbar-collapse d-flex justify-content-between d-none d-xl-block" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="index.php">Home</a>
+                    <a class="nav-link" href="/">Home</a>
                 </li>
 
                 <li class="nav-item dropdown">
