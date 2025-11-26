@@ -124,7 +124,7 @@ foreach ($_COOKIE as $name => $value) {
 							</p>
 
 							<div class="d-grid">
-								<button style="max-width:200px" class="btn btn-primary mt-2" id="sendemail" type="submit">Submit</button>
+								<button style="max-width:200px" class="btn btn-primary mt-2"  type="submit">Submit</button>
 							</div>
 
 						</form>
