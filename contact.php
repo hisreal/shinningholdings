@@ -95,7 +95,6 @@ foreach ($_COOKIE as $name => $value) {
 						<p style="font-size: 16px" class="lead text-muted">Please fill in the form below to get in touch with us.</p>
 						<form id="contact-form" class="row g-1 mt-2" novalidate>
     
-							<div id="alertMessage"></div> <!-- BOOTSTRAP ALERT HERE -->
 
 							<div class="col-md-6">
 								<input class="form-control" id="name" name="name" type="text" placeholder="Full name" aria-label="Full name" required>
@@ -122,9 +121,10 @@ foreach ($_COOKIE as $name => $value) {
 								<a style="text-decoration:none" href="terms.php">Terms</a> and <a style="text-decoration:none" href="document/Shining Holdings Data Collection Consent Clause (1).pdf">Data Collection Clause.</a>
 								You may receive notification from us and can opt out at any time.
 							</p>
+							<div id="alertMessage"></div> <!-- BOOTSTRAP ALERT HERE -->
 
 							<div class="d-grid">
-								<button style="max-width:200px" class="btn btn-primary mt-2"  type="submit">Submit</button>
+								<button style="max-width:200px" class="btn btn-primary mt-2" type="submit">Submit</button>
 							</div>
 
 						</form>
@@ -134,7 +134,6 @@ foreach ($_COOKIE as $name => $value) {
 				
 				</div>
 			</div>
-			<div id="alertMessage"></div> <!-- AJAX success/error messages appear here -->
 
 		</section>
 		<!-- section content end -->
