@@ -40,7 +40,7 @@ if (isset($_POST['firstname'], $_POST['email'])) {
         $adminMail->Password = "@Investment25";
 
         $adminMail->setFrom('no-reply@shiningholdings.com', 'New Subscriber Alert');
-        $adminMail->addAddress("info@shiningholdings.com");  
+        $adminMail->addAddress("info@shiningholdings.com");
         $adminMail->addReplyTo($email, $firstname);
 
         $adminMail->isHTML(true);
@@ -65,38 +65,57 @@ if (isset($_POST['firstname'], $_POST['email'])) {
     // ===========================
     try {
         $auto = new PHPMailer(true);
-
         $auto->isSMTP();
         $auto->SMTPAuth = true;
         $auto->Host = "2.qservers.net";
-        $auto->Port = 465; 
-        $auto->SMTPSecure = 'ssl'; 
+        $auto->Port = 25; 
+        // $auto->SMTPSecure = 'tls'; 
         $auto->Username = "info@shiningholdings.com";
         $auto->Password = "@Investment25";
 
         $auto->setFrom('no-reply@shiningholdings.com', 'Shining Holdings');
         $auto->addAddress($email, $firstname);
 
-        // Load branded HTML email template
-        $template = file_get_contents("email_template_subscribe.html");
-        $template = str_replace("{{firstname}}", $firstname, $template);
-        $template = str_replace("{{year}}", date("Y"), $template);
+        // ===========================
+        // LOAD EMAIL TEMPLATE
+        // ===========================
+        $templatePath = __DIR__ . "/email_template_subscribe.html";
+        if(file_exists($templatePath)){
+            $template = file_get_contents($templatePath);
+
+            // Embed local logo as Base64
+            $logoPath = __DIR__ . "/img/user/shining-logo.png"; 
+            if(file_exists($logoPath)){
+                $logoBase64 = base64_encode(file_get_contents($logoPath));
+            } else {
+                $logoBase64 = ""; // empty if missing
+            }
+            $template = str_replace("{{logo_base64}}", $logoBase64, $template);
+
+            // Replace placeholders
+            $template = str_replace("{{firstname}}", $firstname, $template);
+            $template = str_replace("{{year}}", date("Y"), $template);
+
+            $auto->Body = $template;
+        } else {
+            // fallback body
+            $auto->Body = "<p>Dear $firstname,</p><p>Thank you for subscribing to our newsletter!</p>";
+        }
+
+        $auto->AltBody = "Dear $firstname, thank you for subscribing! Please check the attached PDF.";
+
+        // ===========================
+        // ATTACH PDF
+        // ===========================
+        $pdfPath = __DIR__ . "/files/welcome-guide.pdf";
+        if(file_exists($pdfPath)){
+            $auto->addAttachment($pdfPath, "Welcome-Guide.pdf");
+        } else {
+            error_log("PDF not found: $pdfPath");
+        }
 
         $auto->isHTML(true);
         $auto->Subject = "Thank You for Subscribing!";
-        $auto->Body = $template;
-        $auto->AltBody = "Dear $firstname,\nThank you for subscribing! Please see attached document.";
-
-        // Attach PDF (replace with your PDF file path)
-            // Attach PDF (local file, not URL)
-            $pdfPath = __DIR__ . "/files/welcome-guide.pdf";
-            if(file_exists($pdfPath)){
-                $auto->addAttachment($pdfPath, "Welcome-Guide.pdf");
-            } else {
-                // Optional: warn if file missing
-                error_log("PDF not found: $pdfPath");
-            }
-
         $auto->send();
 
         echo "Subscription successful! Please check your email.";
