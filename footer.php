@@ -143,7 +143,7 @@ $('#subscribeForm').on('submit', function(e){
     e.preventDefault(); // no page reload
 
     $.ajax({
-        url: 'subscribe_email.php', // your PHP script
+        url: 'includes/subscribe_email.php', // your PHP script
         type: 'POST',
         data: {
             firstname: $('#firstname').val(),
