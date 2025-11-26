@@ -1,62 +1,58 @@
 <?php
-require_once "Mail.php"; 
-require_once "Mail/mime.php";
 
-if(isset($_POST['name'], $_POST['email'], $_POST['subject'], $_POST['phone'], $_POST['message'])) {
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
 
-    $name    = $_POST['name'];
-    $email   = $_POST['email'];
-    $subject = $_POST['subject'];
-    $phone   = $_POST['phone'];
-    $message = $_POST['message'];
+require 'PHPMailer/src/PHPMailer.php';
+require 'PHPMailer/src/SMTP.php';
+require 'PHPMailer/src/Exception.php';
 
-    $from = "test@shiningholdings.com"; 
-    $to   = "ajiboye820@gmail.com"; 
-    $subjectLine = "New Contact Form Submission: $subject";
+if (isset($_POST['firstname'], $_POST['email'])) {
 
-    $html = "
-        <html><body>
-        <h3>New Contact Form Submission</h3>
-        <p><strong>Name:</strong> $name</p>
-        <p><strong>Email:</strong> $email</p>
-        <p><strong>Phone:</strong> $phone</p>
-        <p><strong>Subject:</strong> $subject</p>
-        <p><strong>Message:</strong><br>$message</p>
-        </body></html>
-    ";
+    $firstname = $_POST['firstname'];
+    $email = $_POST['email'];
 
-    $text = "Name: $name\nEmail: $email\nPhone: $phone\nSubject: $subject\nMessage: $message";
+    $mail = new PHPMailer(true);
 
-    $headers = array(
-        'From'    => $from,
-        'To'      => $to,
-        'Subject' => $subjectLine
-    );
+    try {
+        // SMTP configuration
+        $mail->isSMTP();
+        $mail->SMTPAuth = true;
+        $mail->Host = "2.qservers.net";
+        $mail->Port = 25; 
+        // $mail->SMTPSecure = 'tls'; // enable if your hosting requires it
+        $mail->Username = "test2@shiningholdings.com";
+        $mail->Password = "[P.;H9.;rN!NimLT";
 
-    $crlf = "\n";
-    $mime = new Mail_mime($crlf);
-    $mime->setTXTBody($text);
-    $mime->setHTMLBody($html);
+        // Email headers
+        $mail->setFrom('no-reply@shiningholdings.com', 'New Subscriber');
+        $mail->addReplyTo($email, $firstname); 
+        $mail->addAddress("hello@mcu.eduportal.app"); // receiver email
 
-    $body = $mime->get();
-    $headers = $mime->headers($headers);
+        // Email content
+        $mail->isHTML(true);
+        $mail->Subject = "New Newsletter Subscriber";
+        $mail->Body = "
+            <html><body>
+                <h3>New Subscriber Details</h3>
+                <p><strong>Name:</strong> {$firstname}</p>
+                <p><strong>Email:</strong> {$email}</p>
+            </body></html>
+        ";
 
-    $smtp = Mail::factory('smtp', array(
-        'host'     => "localhost",
-        'auth'     => true,
-        'username' => "test@shiningholdings.com",
-        'password' => "Shiningholdings@2025."
-    ));
+        $mail->AltBody = "New Subscriber:\nName: $firstname\nEmail: $email";
 
-    $mail = $smtp->send($to, $headers, $body);
+        // Send
+        $mail->send();
 
-    if (PEAR::isError($mail)) {
-        echo "Error: " . $mail->getMessage();
-    } else {
-        echo "Your message has been successfully sent!";
+        echo "Subscription successful! Thank you.";
+
+    } catch (Exception $e) {
+        echo "Mailer Error: " . $mail->ErrorInfo;
     }
-    
+
 } else {
-    echo "Please fill all required fields.";
+    echo "Invalid request.";
 }
+
 ?>
