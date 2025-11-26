@@ -88,7 +88,7 @@ if (isset($_POST['firstname'], $_POST['email'])) {
         $auto->AltBody = "Dear $firstname,\nThank you for subscribing! Please see attached document.";
 
         // Attach PDF (replace with your PDF file path)
-        $auto->addAttachment("files/welcome-guide.pdf", "Welcome-Guide.pdf");
+        $auto->addAttachment("https://shiningholdings.com/files/welcome-guide.pdf", "Welcome-Guide.pdf");
 
         $auto->send();
 
