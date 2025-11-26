@@ -140,5 +140,4 @@ foreach ($_COOKIE as $name => $value) {
 		<!-- section content end -->
 	</main>
 	<!-- footer begin -->
-	 <?php require_once("call.php"); ?>
 <?php require_once("footer.php"); ?>
