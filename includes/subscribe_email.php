@@ -88,7 +88,14 @@ if (isset($_POST['firstname'], $_POST['email'])) {
         $auto->AltBody = "Dear $firstname,\nThank you for subscribing! Please see attached document.";
 
         // Attach PDF (replace with your PDF file path)
-        $auto->addAttachment("https://shiningholdings.com/files/welcome-guide.pdf", "Welcome-Guide.pdf");
+            // Attach PDF (local file, not URL)
+            $pdfPath = __DIR__ . "/files/welcome-guide.pdf";
+            if(file_exists($pdfPath)){
+                $auto->addAttachment($pdfPath, "Welcome-Guide.pdf");
+            } else {
+                // Optional: warn if file missing
+                error_log("PDF not found: $pdfPath");
+            }
 
         $auto->send();
 
