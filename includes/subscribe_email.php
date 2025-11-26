@@ -78,7 +78,7 @@ if (isset($_POST['firstname'], $_POST['email'])) {
         $auto->addAddress($email, $firstname);
 
         // Load branded HTML email template
-        $template = file_get_contents("email-template.html");
+        $template = file_get_contents("email_template_subscribe.html");
         $template = str_replace("{{firstname}}", $firstname, $template);
         $template = str_replace("{{year}}", date("Y"), $template);
 
