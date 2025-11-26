@@ -19,8 +19,8 @@ if (isset($_POST['firstname'], $_POST['email'])) {
         $mail->isSMTP();
         $mail->SMTPAuth = true;
         $mail->Host = "2.qservers.net";
-        $mail->Port = 25; 
-        // $mail->SMTPSecure = 'tls'; // enable if your hosting requires it
+        $mail->Port = 857; 
+        $mail->SMTPSecure = 'tls'; // enable if your hosting requires it
         $mail->Username = "test2@shiningholdings.com";
         $mail->Password = "[P.;H9.;rN!NimLT";
 
